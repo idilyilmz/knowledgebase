@@ -8,6 +8,9 @@ This repo is meant to grow over time and serve as my long-term learning archive.
 ## 📁 Structure
 
 knowledgebase/
+  frameworks/
+    react/
+    vue/
   programming/
     python/
     javascript/
