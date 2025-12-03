@@ -6,7 +6,7 @@ This repo is meant to grow over time and serve as my long-term learning archive.
 ---
 
 ## 📁 Structure
-
+```
 knowledgebase/
   frameworks/
     react/
@@ -39,7 +39,7 @@ knowledgebase/
     books/
     courses/
     projects/
-
+```
 ---
 
 ## 🧭 How to Use
