@@ -11,6 +11,15 @@ knowledgebase/
   programming/
     python/
     javascript/
+        basics/
+        functions/
+        async/
+        dom/
+        browser-apis/
+        concepts/
+        patterns/
+        testing/
+        ecosystem/
     java/
     patterns/
     algorithms/
