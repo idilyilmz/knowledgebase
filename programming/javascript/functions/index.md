@@ -1,5 +1,5 @@
 # JavaScript Functions — Basics & Core Concepts
-## 1.1 What Is a Function?
+## 1. What Is a Function?
 
 A <strong>function</strong> is a reusable block of code that performs a task.
 Functions help:
@@ -8,7 +8,7 @@ Functions help:
 - Make logic reusable
 - Encapsulate behavior
 
-## 1.2 Function Declaration
+## 2. Function Declaration
 ``` 
 function greet(name) {
   return `Hello, ${name}!`;
@@ -19,7 +19,7 @@ Characteristics:
 - Can be called before they are defined → hoisted
 - Readable, good for most use cases
 
-## 1.3 Function Expression
+## 3. Function Expression
 ``` 
 const greet = function(name) {
   return `Hello, ${name}`;
@@ -31,7 +31,7 @@ Characteristics:
 - Not hoisted (cannot call before defined)
 - Useful for callbacks
 
-## 1.4 Arrow Functions
+## 4. Arrow Functions
 ``` 
 const greet = (name) => {
   return `Hello, ${name}`;
@@ -48,7 +48,7 @@ Key differences:
 - No `arguments` object
 - Cleaner syntax, especially for callbacks
 
-## 1.5 Parameters vs Arguments
+## 5. Parameters vs Arguments
 ``` 
 function add(a, b) {  // parameters
   return a + b;
@@ -59,14 +59,14 @@ add(3, 4); // arguments
 - Parameters → variables in the function definition
 - Arguments → actual values you pass
 
-## 1.6 Default Parameters
+## 6. Default Parameters
 ``` 
 function greet(name = "stranger") {
   return `Hello, ${name}`;
 }
 ``` 
 
-## 1.7 Rest Parameters (`...args`)
+## 7. Rest Parameters (`...args`)
 ``` 
 function sum(...nums) {
   return nums.reduce((a, b) => a + b, 0);
@@ -74,7 +74,7 @@ function sum(...nums) {
 
 sum(1, 2, 3); // 6
 ``` 
-## 1.8 Return Values
+## 8. Return Values
 ``` 
 function multiply(a, b) {
   return a * b;
@@ -83,7 +83,7 @@ function multiply(a, b) {
 
 If no `return` is used → returns `undefined`.
 
-## 1.9 Anonymous Functions
+## 9. Anonymous Functions
 
 Functions without names, often used for callbacks:
 ``` 
@@ -96,7 +96,7 @@ Arrow version:
 ``` 
 setTimeout(() => console.log("Hi"), 1000);
 ``` 
-## 1.10 Callback Functions
+## 10. Callback Functions
 
 A function passed into another function:
 ``` 
@@ -113,7 +113,7 @@ Used heavily in:
 - Promises
 - Async code
 
-## 1.11 Higher Order Functions
+## 11. Higher Order Functions
 
 A function that:
 - <i>takes a function as an argument</i>
@@ -133,7 +133,7 @@ double(5); // 10
 
 This pattern is very powerful.
 
-## 1.12 Immediately Invoked Function Expression (IIFE)
+## 12. Immediately Invoked Function Expression (IIFE)
 
 Runs instantly:
 ``` 
@@ -146,7 +146,7 @@ Useful for:
 - Creating isolated scope
 - Avoiding global variables
 
-## 1.13 `this` in Functions (Basic)
+## 13. `this` in Functions (Basic)
 In regular functions → `this` depends on how they are called
 ```
 const user = {
@@ -169,7 +169,7 @@ const user = {
 };
 ``` 
 
-## 1.14 Functions as Objects
+## 14. Functions as Objects
 
 Functions in JavaScript are first-class citizens.
 This means:

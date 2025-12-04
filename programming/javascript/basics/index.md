@@ -1,6 +1,6 @@
-# 1. JavaScript Basics
+#  JavaScript Basics
 
-## 1.1 What is JavaScript?
+## 1. What is JavaScript?
 JavaScript is a high-level, dynamic, interpreted programming language used mainly for the web.
 ### Runs in:
 - Browsers (client-side)
@@ -10,7 +10,7 @@ JavaScript is a high-level, dynamic, interpreted programming language used mainl
 - Object-oriented programming
 - Event-driven programming
 
-## 1.2 Variables
+## 2. Variables
 `const` - Block-scoped, cannot be reassigned (but objects inside it can change).
 `let` - Block-scoped variable that can be reassigned.
 `var` - Function-scoped, old keyword — avoid unless maintaining legacy code.
@@ -21,7 +21,7 @@ const name = "Alex";
 var oldWay = true;
 ```
 
-## 1.3 Data Types
+## 3. Data Types
 ### Primitive Types
 - string
 - number
@@ -37,7 +37,7 @@ object (includes arrays, functions)
 typeof "text"; // 'string'
 ``` 
 
-## 1.4 Operators
+## 4. Operators
 ### Arithmetic
 `+ - * / % **`
 
@@ -50,7 +50,7 @@ typeof "text"; // 'string'
 ### Logical
 `&&`, `||`, `!`
 
-## 1.5 Conditionals
+## 5. Conditionals
 ```
 if (age > 18) {
   console.log("Adult");
@@ -70,7 +70,7 @@ switch (color) {
 }
 ```
 
-## 1.6 Functions
+## 6. Functions
 ### Function declaration
 ```
 function add(a, b) {
@@ -87,7 +87,7 @@ const add = function(a, b) {};
 const add = function(a, b) {};
 ```
 
-## 1.7 Arrays
+## 7. Arrays
 Create
 ```
 const nums = [ 1, 2, 3]
@@ -103,7 +103,7 @@ nums.reduce((a, b) => a + b, 0);
 ```
 
 
-## 1.8 Objects
+## 8. Objects
 ```
 const user = {
   name: "Idil",
@@ -118,7 +118,7 @@ user.name
 user["age"]
 ```
 
-## 1.9 Loops
+## 9. Loops
 ### For
 ```
 for (let i = 0; i < 5; i++) {}
@@ -139,14 +139,14 @@ for (const key in user) {}
 while (count < 5) {}
 ```
 
-## 1.10 Basic Console Usage
+## 10. Basic Console Usage
 ```
 console.log("Hello");
 console.error("Error!");
 console.table({ name: "Alex", age: 21 });
 ```
 
-## 1.11 Comments
+## 11. Comments
 ```
 // Single-line comment
 
