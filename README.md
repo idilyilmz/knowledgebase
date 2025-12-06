@@ -27,9 +27,12 @@ knowledgebase/
     patterns/
     algorithms/
   devops/
+    oci/
     docker/
     kubernetes/
   tools/
+    kaggle/
+      intro-to-programming/
     git/
     linux/
   cs_fundamentals/
