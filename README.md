@@ -18,7 +18,7 @@ knowledgebase/
         functions/
         async/
         dom/
-        browser-apis/
+        browser_apis/
         concepts/
         patterns/
         testing/
@@ -32,12 +32,22 @@ knowledgebase/
     kubernetes/
   tools/
     kaggle/
-      intro-to-programming/
+      intro_to_programming/
     git/
+      basics/
+      branching/
+      remotes/
+      workflows/
+      configs/
+      advanced/
+      troubleshooting/
+      cheatsheets/
     linux/
   cs_fundamentals/
     networking/
     databases/
+    hardware/
+      desktop_components/
   notes/
     books/
     courses/
