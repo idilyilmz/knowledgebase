@@ -48,6 +48,7 @@ knowledgebase/
     databases/
     hardware/
       desktop_components/
+    oop/  
   notes/
     books/
     courses/
