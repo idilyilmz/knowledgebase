@@ -5,7 +5,7 @@ This repo is meant to grow over time and serve as my long-term learning archive.
 
 ---
 
-## 📁 Structure
+## Structure
 ```
 knowledgebase/
   frameworks/
@@ -56,7 +56,7 @@ knowledgebase/
 ```
 ---
 
-## 🧭 How to Use
+## How to Use
 - Each topic lives in its own Markdown file.
 - Keep notes atomic — one concept per file.
 - Use internal links to connect related notes.
@@ -64,7 +64,7 @@ knowledgebase/
 
 ---
 
-## ✍️ Conventions
+## Conventions
 - File names: `lowercase-with-dashes.md`
 - Avoid giant files — split when needed.
 - Include examples, diagrams, or commands when useful.
@@ -73,7 +73,7 @@ knowledgebase/
 
 ---
 
-## 📌 Categories
+## Categories
 
 **programming/** – Everything related to programming languages, paradigms, patterns, algorithms  
 **devops/** – Containers, deployments, CI/CD, Kubernetes, Docker  
@@ -83,7 +83,7 @@ knowledgebase/
 
 ---
 
-## 🚧 Future Plans
+## Future Plans
 - Add cheatsheets  
 - Add example projects  
 - Add diagrams or mind-maps  
