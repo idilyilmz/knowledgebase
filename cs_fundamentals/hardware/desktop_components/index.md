@@ -32,3 +32,7 @@ https://www.almiriatechstore.co.ke/parts-of-a-computer-and-their-functions/
 ### Scanner
 
 ### Computer Speakers
+
+
+
+https://www.geeksforgeeks.org/computer-science-fundamentals/computer-hardware/
