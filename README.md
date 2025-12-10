@@ -33,6 +33,8 @@ knowledgebase/
   tools/
     kaggle/
       intro_to_programming/
+      intro_to_sql/
+      python/
     git/
       basics/
       branching/
