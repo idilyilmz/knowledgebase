@@ -33,8 +33,11 @@ knowledgebase/
   tools/
     kaggle/
       intro_to_programming/
-      intro_to_sql/
       python/
+      intro_to_SQL/
+      advanced_SQL/
+      pandas/
+      geospatial_analysis/
     git/
       basics/
       branching/
