@@ -2,26 +2,32 @@ Structure
 https://www.kaggle.com/learn
 
 ```
-intro to programming
-python
-intro to SQL
-advanced SQL
-pandas
-geospatial Analysis
-data Cleaning
-intro to Machine Learning
-intermediate Machine Learning
-feature Engineering
-time Series
-machine Learning Explainability
-into to Deep Learning
-computer Vision
-data Visualization
-intro to Game AI and Reinforcement Learning
-intro to AI Ethics
-5 Day intensice Gen AI Course
-tensorFlow Guide
-transfer learning for CV guide
-jax guide
-natural language processing guide
+data_analysis/
+    intro_to_SQL/
+    advanced_SQL/
+    pandas/
+    geospatial_analysis/
+    data_cleaning/
+deep_learning_and_ai/
+    computer_vision/
+    into_to_deep_learning/
+    jax_guide/
+    natural_language_processing_guide/
+    tensorflow_guide/
+    transfer_learning_for_cv_guide/
+machine_learning/
+    feature_engineering/
+    intro_to_machine_learning/
+    intermediate_machine_learning/
+    time_series/
+    machine_learning_explainability/
+programming/
+    intro_to_programming/
+    python/
+specialized_topics/
+    intro_to_game_ai_and_reinforcement_learning/
+    intro_to_ai_ethics/
+    5_day_intensice_gen_ai_course/
+visualization/
+    data_visualization/
 ```
