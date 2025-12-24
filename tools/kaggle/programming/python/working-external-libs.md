@@ -1,5 +1,7 @@
 # (7) Working with External Libraries
 
+https://www.kaggle.com/code/colinmorris/working-with-external-libraries
+
 ## 1. Imports
 <strong>a. Importing modules</strong>
 - Python can load extra code using import, including the standard library and external libraries.

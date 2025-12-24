@@ -87,7 +87,7 @@ Help on function least_difference in module __main__:
 least_difference(a, b, c)
 ```
 
-#### a1. Docstrings
+#### a_a. Docstrings
 ```
 def least_difference(a, b, c):
     """Return the smallest difference between any two numbers
@@ -105,7 +105,7 @@ The `docstring` is a string with three quotes. These can be span over multiple l
 
 Docstrings include sometimes an example function call. These are maerked with `>>>`, like in Python's interactive shell. These examples aren't executed by Python. They're there for the reader. The doctstrings can be very helpful.
 
-### b. Functions that don't return
+### a_b. Functions that don't return
 Without a `return` statement, the result of calling the functions is the special value `None`. 
 ```
 def least_difference(a, b, c):
@@ -128,7 +128,7 @@ Output:
 ```
 None None None 
 ```
-### c. Default arguments
+### a_c. Default arguments
 `sep`
 
 ```
