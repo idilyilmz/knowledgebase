@@ -3,7 +3,8 @@
 https://www.kaggle.com/code/dansbecker/group-by-having-count
 
 ## 1. Introduction
-Learn how to group data and count things within groups using `GROUP BY`, `HAVING`, and `COUNT()`. This helps answer questions like sales per fruit or animals treated per species.
+- learn how to group data and count things within groups using `GROUP BY`, `HAVING`, and `COUNT()`
+- this helps answer questions like sales per fruit or animals treated per species.
 
 ## 2. COUNT()
 - Returns the number of entries in a column or rows (e.g., `COUNT(ID)`).
