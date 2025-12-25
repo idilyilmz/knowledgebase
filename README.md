@@ -31,6 +31,7 @@ knowledgebase/
     docker/
     kubernetes/
   tools/
+    firebase/
     kaggle/
       intro_to_programming/
       python/
@@ -47,6 +48,7 @@ knowledgebase/
       advanced/
       troubleshooting/
       cheatsheets/
+      setup/
     linux/
   cs_fundamentals/
     networking/
@@ -57,6 +59,8 @@ knowledgebase/
   notes/
     books/
     courses/
+    subjects/
+      professional_skills_program/
     projects/
 ```
 ---

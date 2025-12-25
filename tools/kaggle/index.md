@@ -28,6 +28,11 @@ specialized_topics/
     intro_to_game_ai_and_reinforcement_learning/
     intro_to_ai_ethics/
     5_day_intensice_gen_ai_course/
+        day_1/
+        day_2/
+        day_3/
+        day_4/
+        day_5/
 visualization/
     data_visualization/
 ```
