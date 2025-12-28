@@ -141,14 +141,14 @@ https://youtu.be/Na3O4Pkbp-U?si=77ZHyDZKbBvwE5oK
 ## 4. The evaluation of transformers
 - These include encoder-only, encoder-decoder, as well as decoder-only transformers.
 
-### 4.1 GPT-1
+### 4.1 GPT-1 (novelist)
 - **GPT-1** was a decoder-only transformer model introduced by OpenAI in 2018 and trained on the **BooksCorpus**, a large unlabeled dataset of long-form text. 
 - Its key innovation was demonstrating the effectiveness of **unsupervised pre-training** on large text corpora followed by **supervised fine-tuning**, which improved generalization and reduced reliance on labeled data.
 - Another important contribution was **task-aware input transformations**, where different NLP tasks (such as textual entailment and question answering) were reformulated into a single text input format, allowing GPT-1 to handle multiple tasks without task-specific architectures.
 - GPT-1 achieved strong benchmark results and showed the power of transformer-based language models, but it had limitations, including repetitive text generation, weak multi-turn reasoning, and difficulty maintaining coherence over long passages. 
 - Despite this, it laid the groundwork for later, more capable GPT models.
 
-### 4.2 BERT
+### 4.2 BERT (puzzle master)
 - **BERT** is an **encoder-only transformer** that focuses on understanding context rather than generating text. 
 - It is trained using **masked language modeling** (predicting randomly masked words from surrounding context) and **next sentence prediction** (determining if one sentence logically follows another). 
 - These training objectives allow BERT to capture deep contextual relationships and sentence-level dependencies.
@@ -159,14 +159,15 @@ https://youtu.be/Na3O4Pkbp-U?si=77ZHyDZKbBvwE5oK
 - **GPT-2**, released in 2019, was a scaled-up successor to GPT-1, with **1.5 billion parameters** and trained on a large 40GB **WebText** dataset of high-quality webpages. 
 - The increase in parameters and data allowed GPT-2 to generate more coherent, human-like text and capture long-range dependencies and commonsense reasoning better than GPT-1.
 - A major advancement of GPT-2 was its **zero-shot learning** ability, meaning it could perform tasks like translation, summarization, and reading comprehension without task-specific training, simply by understanding instructions in the input. 
-- Performance on these tasks improved as model size increased, demonstrating the benefits of scaling both data and parameters for generalization.
+- Performance on these tasks improved as **model size increased**, demonstrating the benefits of scaling both data and parameters for generalization.
 
 ### 4.4 GPT-3/3.5/4
 - **GPT-3** is a massive evolution from GPT-2, featuring **175 billion parameters**, enabling it to generate more coherent, contextually relevant text and understand nuanced instructions over longer passages. 
+- Uses **Few-shot learning**
 - Unlike GPT-2, GPT-3 can perform tasks with few or no examples, reducing the need for task-specific fine-tuning.
 - **InstructGPT**, a fine-tuned version of GPT-3 using **human demonstrations and reinforcement learning from feedback**, improved instruction-following, truthfulness, and safety. 
 - **GPT-3.5** enhanced dialogue capabilities, code understanding, and expanded context windows.
-- GPT-4 further extends GPT-3.5 as a **multimodal model** that handles text and images, with extremely large context windows, advanced reasoning, and broad domain knowledge. 
+- GPT-4 further extends GPT-3.5 as a **multimodal model** that handles *text and images*, with extremely large context windows, advanced reasoning, and broad domain knowledge. 
 - It excels in complex tasks across fields like mathematics, coding, law, medicine, and psychology, often matching or surpassing human performance and significantly outperforming earlier models.
 
 ### 4.5 LaMDA
@@ -174,7 +175,7 @@ https://youtu.be/Na3O4Pkbp-U?si=77ZHyDZKbBvwE5oK
 - Trained on dialogue-focused data, it emphasizes natural, flowing exchanges across a wide range of topics. 
 - Unlike GPT models, which excel at diverse tasks and long-form content generation, LaMDA focuses on **maintaining conversational depth and progression**, aiming to mimic the richness and unpredictability of human dialogue.
 
-### 4.6 Gropher
+### 4.6 Gopher
 - **Gopher**, developed by DeepMind in 2021, is a **280 billion parameter decoder-only transformer** trained to generate text, translate, create content, and answer questions. 
 - It was trained on a high-quality, filtered dataset called **MassiveText**, and optimized with careful learning rate schedules, batch sizing, and gradient clipping to stabilize training.
 - Gopher excelled on **knowledge-intensive tasks** like general knowledge and reading comprehension, outperforming previous models on 81% of evaluated tasks, but struggled on reasoning-heavy tasks such as abstract algebra. 
@@ -416,40 +417,40 @@ https://youtu.be/Na3O4Pkbp-U?si=77ZHyDZKbBvwE5oK
 - They can generate concise summaries that capture key points, sentiment, and tone, helping users quickly understand content, prioritize responses, and grasp core findings in research papers.
 
 ### 8.4 Question-answering
-- LLMs greatly improve question-answering (QA) by understanding context and user intent, unlike older keyword-based systems. 
+- LLMs greatly improve **question-answering** (QA) by *understanding context and user intent*, unlike older keyword-based systems. 
 - They enhance applications such as virtual assistants, customer support, and academic platforms by providing personalized, context-aware, and accurate responses. 
 - Performance can be further improved with advanced techniques like **Retrieval-Augmented Generation (RAG)**, chain-of-thought prompting, careful prompt engineering, and tuning parameters like temperature.
 
 ### 8.5 Chatbots
-- LLMs enable chatbots to have dynamic, human-like conversations by understanding sentiment, context, and humor. 
+- LLMs enable **chatbots** to have dynamic, human-like conversations by understanding sentiment, context, and humor. 
 - Applications include customer service, where chatbots provide personalized advice and support, and entertainment, where they interact dynamically with users, moderate chats, and respond to live events.
 
 ### 8.6 Content generation
 - LLMs excel at generating human-like, contextually rich text across diverse styles and tones. 
 - They maintain coherence over long passages and blend factuality with creativity. 
-- **Key applications** include content creation, where they generate targeted marketing messages, and scriptwriting, where they assist with dialogues or scene suggestions. 
+- **Key applications** include **content creation**, where they generate targeted marketing messages, and scriptwriting, where they assist with dialogues or scene suggestions. 
 - The balance between correctness and creativity can be tuned via sampling methods and parameters like temperature.
 
-### 8.7 natural language inference
-- LLMs excel at **natural language inference (NLI)**, determining if a hypothesis logically follows from a premise. Their deep understanding of context and semantics enables near-human accuracy. Applications include:
+### 8.7 Natural Language Inference
+- LLMs excel at **Natural Language Inference (NLI)**, determining if a hypothesis logically follows from a premise. Their deep understanding of context and semantics enables near-human accuracy. Applications include:
     - **Sentiment analysis**: Extracting nuanced emotions from customer reviews.
     - **Legal document review**: Identifying contradictions or risks in contracts.
     - **Medical diagnoses**: Inferring potential health risks from patient descriptions.
 - Domain-specific LLMs and prompt engineering further enhance these capabilities
 
-### 8.8 Text classification
-- LLMs enhance **text classification** by accurately categorizing text, even with ambiguous or overlapping categories. Applications include:
+### 8.8 Text Classification
+- LLMs enhance **Text Classification** by accurately categorizing text, even with ambiguous or overlapping categories. Applications include:
     - **Spam detection**: Context-aware identification of spam vs legitimate emails.
     - **News categorization**: Sorting articles into topics like technology, politics, or sports.
     - **Customer feedback sorting**: Classifying feedback into categories like product, service, or pricing.
     - **LLM evaluation**: Using LLMs to rate, compare, and rank outputs from other LLMs.
 
-### 8.9 Text analysis
+### 8.9 Text Analysis
 - LLMs provide **deep text analysis**, uncovering patterns, themes, and actionable insights from large text datasets. Applications include:
     - **Market research**: Analyzing social media conversations to identify trends, preferences, and emerging needs.
     - **Literary analysis**: Examining themes, motifs, and character development in literature for new insights.
 
-### 8.10 Multimodal applications
+### 8.10 Multimodal Applications
 - **Multimodal LLMs**, which process and generate text, images, audio, and video, enable a wide range of innovative applications:
     - **Creative content**: Storytelling from visuals, targeted advertising.
     - **Education & accessibility**: Personalized learning, assistive tools for visually or hearing-impaired users.
