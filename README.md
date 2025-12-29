@@ -27,6 +27,29 @@ knowledgebase/
     patterns/
     algorithms/
   devops/
+    infrastructure/
+      compute/
+      storage/
+        nas/
+          synology/
+      networking/
+      os/
+      iam/
+      provisioning/
+      observability/
+      security/
+      cloud/
+      cicd_infra/
+      edge/
+         platform/
+    applications/
+    ci_cd/
+    reliability/
+    security/
+    data/
+    architecture/
+    governance/
+    tooling/
     oci/
     docker/
     kubernetes/
