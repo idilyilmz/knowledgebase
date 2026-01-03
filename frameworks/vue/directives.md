@@ -131,6 +131,8 @@ The `v-model` directive creates a **two-way data binding** between a form input 
 - typing into the input box updates the `message` property in real-time
 - if you programmatically change the `message` property, the input box updates accordingly.
 
+### `v-model` with `defineModel`
+
 ### 3. `v-for`
 
 The `v-for` directive is used to render a list of items by iterating over an array or an object. It dynamically generates DOM elements for each item in the collection.
