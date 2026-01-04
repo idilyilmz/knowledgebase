@@ -5,7 +5,7 @@ https://youtu.be/H4gZd4BCrDQ?si=7W8k3mIZN2QRj2vq
 ## 1. Introduction
 
 - Generative AI models, like humans, can enhance their capabilities by using external tools to access real-time information or take actions. 
-- By combining reasoning, planning and tool use—such as database retrieval or API calls—these models can perform complex, self-directed tasks. 
+- By combining reasoning, planning and tool use (such as database retrieval or API calls) these models can perform complex, self-directed tasks. 
 - This integrated system is known as an agent, which extends AI beyond standalone text generation into practical, decision-driven applications.
 
 ## 2. What is an agent?
@@ -43,7 +43,7 @@ https://youtu.be/H4gZd4BCrDQ?si=7W8k3mIZN2QRj2vq
 
 - Models and agents differ in scope and capability. 
 - Models rely only on their training data, perform single-turn predictions, lack native tool use and have no built-in logic or session management. 
-- Agents extend model knowledge through external tools, maintain session history for multi-turn interactions, natively integrate tools and use a cognitive architecture with reasoning frameworks (e.g., CoT, ReAct) to plan and act toward goals.
+- Agents extend model knowledge through external tools, maintain session history for multi-turn interactions, natively integrate tools and use a cognitive architecture with reasoning frameworks (*CoT*, *ReAct*) to plan and act toward goals.
 
 ### 2.5 Cognitive architecture: How agents operate
 
@@ -104,20 +104,20 @@ https://youtu.be/H4gZd4BCrDQ?si=7W8k3mIZN2QRj2vq
 ### 3.4 Data stores
 
 - Data Stores allow a language model to access dynamic, up-to-date information beyond its static training data. 
-- They enable developers to provide additional data (like spreadsheets or PDFs) without retraining the model. 
+- They enable developers to provide additional data (like *spreadsheets* or *PDFs*) without retraining the model. 
 - The Data Store converts this data into embeddings, which the agent can then use to retrieve relevant information and enhance its responses or actions.
 
 #### 3.4.1 Implementation and application
 
 - In Generative AI agents, Data Stores are often implemented as vector databases that store information as embeddings.
 - This allows agents to access knowledge beyond their training data in formats like web content, PDFs, CSVs, or text.
-- In **Retrieval Augmented Generation (RAG)** applications, a user query is converted into embeddings, matched against the vector database (e.g., using ScaNN) and relevant content is retrieved. 
+- In **Retrieval Augmented Generation (RAG)** applications, a user query is converted into embeddings, matched against the vector database (*using ScaNN*) and relevant content is retrieved. 
 - The agent then uses this content along with the query to generate a response or take an action, enabling real-time, context-aware and factually grounded interactions.
 
 ### 3.5 Tools recap
 
 - Agents have three main types of tools, **Extensions**, **Function Calling** and **Data Stores**, each serving different purposes:
-    - **Extensions**: Executed on the agent side; ideal for letting the agent directly interact with APIs, perform multi-step actions, or leverage pre-built integrations (e.g., Vertex Search, Code Interpreter).
+    - **Extensions**: Executed on the agent side; ideal for letting the agent directly interact with APIs, perform multi-step actions, or leverage pre-built integrations (*Vertex Search*, *Code Interpreter*).
     - **Function Calling**: Executed on the client side; used when API calls require security/authentication constraints, timing/order restrictions, or when the API isn’t directly accessible to the agent.
     - **Data Stores**: Executed on the agent side; used to provide agents access to external knowledge for Retrieval Augmented Generation (RAG), including structured data (PDF, CSV, spreadsheets), unstructured data (HTML, text) and relational or non-relational databases.
 - These tools can be used independently or together, depending on the agent’s requirements.
@@ -125,9 +125,9 @@ https://youtu.be/H4gZd4BCrDQ?si=7W8k3mIZN2QRj2vq
 ## 4. Enhancing model performance with targeted learning
 
 - Enhancing model performance for specific tasks often requires **targeted learning**, beyond general pretraining. There are three main approaches:
-    1. **In-Context Learning**: The model learns on the fly using prompts, tools and few-shot examples during inference (like a chef improvising a dish with limited ingredients and a recipe).
-    2. **Retrieval-Based In-Context Learning**: The model dynamically retrieves relevant information, tools and examples from external memory or data stores to inform its outputs (like a chef using a well-stocked pantry and cookbooks).
-    3. **Fine-Tuning**: The model is trained on a larger dataset of specific examples beforehand, allowing it to handle similar tasks more effectively in the future (like a chef learning an entirely new cuisine).
+    1. **In-Context Learning**: The model learns on the fly using prompts, tools and few-shot examples during inference (like a chef *improvising a dish with limited ingredients and a recipe*).
+    2. **Retrieval-Based In-Context Learning**: The model dynamically retrieves relevant information, tools and examples from external memory or data stores to inform its outputs (like a chef *using a well-stocked pantry and cookbooks*).
+    3. **Fine-Tuning**: The model is trained on a larger dataset of specific examples beforehand, allowing it to handle similar tasks more effectively in the future (like a chef *learning an entirely new cuisine*).
 - Combining these methods within an agent framework balances speed, cost and accuracy, creating a robust, adaptable system for real-world tasks.
 
 ## 5. Agent quick start with LangChain
