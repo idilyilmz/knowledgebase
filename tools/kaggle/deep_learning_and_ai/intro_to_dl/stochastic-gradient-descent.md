@@ -3,6 +3,7 @@
 https://www.kaggle.com/code/ryanholbrook/stochastic-gradient-descent
 
 ## 1. Introduction
+
 - neural networks start with **random weights** and must be trained to learn meaningful relationships from data
 - training means adjusting these weights so the network can map **input features** to **target values**
 - this process requires training data, a **loss function**, and an **optimizer**
@@ -10,6 +11,7 @@ https://www.kaggle.com/code/ryanholbrook/stochastic-gradient-descent
 ## 2. The Loss Function
 - the **loss function** defines what problem the network is trying to solve by measuring how far predictions are from true targets
 - for **regression problems**, a common loss function is **Mean Absolute Error (MAE)**:
+
 $$
 MAE=1𝑛∑∣𝑦true−𝑦pred∣MAE=n1∑∣ytrue−ypred∣
 $$
@@ -19,6 +21,7 @@ $$
 - the loss function acts as the network’s **objective**, guiding learning
 
 ## 3. The Optimizer - Stochastoc Gradient Descent
+
 - the **optimizer** determines how the network updates its weights to minimize loss
 - most deep learning optimizers are variants of **Stochastic Gradient Descent (SGD)**
 
@@ -32,6 +35,7 @@ SGD works iteratively:
 - on **epoch** is one full pass through the dataset
 
 ### a. Learning Rate and Batch Size
+
 - **learning rate** controls how large each weight update is
     - too large → unstable training
     - too small → slow convergence
@@ -41,16 +45,20 @@ SGD works iteratively:
 **Adam** is a popular SGD variant with an adaptive learning rate and works well for most problems with little tuning.
 
 ### b. Adding the Loss and Optimizer
+
 - in Keras, the loss function and optimizer are added using `compile`:
+
 ```
 model.compile(
     optimizer='adam',
     loss='mae',
 )
 ```
+
 - these can be specified as strings using sensible defaults or customized via the Keras API
 
 ## 4. Example - Red Wine Quality
+
 - the Red Wine Quality dataset contains **11 physiochemical features** used to predict a wine’s **quality score**
     - inputs: 11 features (excluding the target)
     - model: deep fully-connected network with three hidden layers
