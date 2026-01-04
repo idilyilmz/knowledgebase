@@ -27,7 +27,8 @@ https://www.youtube.com/watch?v=1CC39K76Nqs&list=PLqFaTIg4myu8GFXsSEicf6q_ExhfOr
 
 ### 2.2 Search Example
 
-- Embeddings are used in information retrieval and search applications. Key points include:
+- Embeddings are used in information retrieval and search applications. 
+- Key points include:
     - **Joint Embeddings for Search**:
         - Questions and documents are mapped into a shared embedding space. 
         - Dual encoders (separate networks for queries and documents) often outperform single “siamese” networks.
