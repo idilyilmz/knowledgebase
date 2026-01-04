@@ -3,6 +3,7 @@
 https://www.kaggle.com/code/ryanholbrook/a-single-neuron
 
 ## 1. Welcome to Deep Learning (DL)!
+
 - the course introduces deep learning using **Keras** and **TensorFlow**
 - you’ll learn 
     - how to build neural networks
@@ -11,6 +12,7 @@ https://www.kaggle.com/code/ryanholbrook/a-single-neuron
     - improve performance with techniques like **dropout** and **batch normalization**
 
 ## 2. What is DL?
+
 - deep learning is a branch of machine learning that uses **deep stacks of computations** to model complex, hierarchical patterns in data
 - it has powered major advances in areas like **image recognition**, **language translation**, and **game playing**
 - neural networks are the core models behind deep learning, gaining power from how many simple neurons are connected together
@@ -18,11 +20,13 @@ https://www.kaggle.com/code/ryanholbrook/a-single-neuron
 ## 3. The Linear Unit
 - a linear unit (neuron) is the basic building block of a neural network.
 - it computes an output using the formula:
+
 $$
 y=wx+b
 $$
+
 - x: input
-- w: weight (learned during training)
+- w (or a): weight (learned during training)
 - b: bias (allows shifting the output independently of inputs)
 - y: output
 
@@ -33,7 +37,9 @@ this equation is the same as the slope-intercept form of a line, making a single
 - for example, predicting cereal calories from sugar content:
     - weight 𝑤 = 2.5
     - bias 𝑏 = 90
-- if sugar = 5 grams:
+
+if sugar = 5 grams:
+
 $$
 𝑐𝑎𝑙𝑜𝑟𝑖𝑒𝑠 = 2.5 × 5 + 90 = 102.5
 $$
