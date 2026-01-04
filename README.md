@@ -13,7 +13,7 @@ knowledgebase/
     vue/
   programming/
     python/
-    javascript/
+    javascript-typescript/
         basics/
         functions/
         async/
