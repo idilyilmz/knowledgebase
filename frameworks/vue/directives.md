@@ -132,6 +132,7 @@ The `v-model` directive creates a **two-way data binding** between a form input 
 - if you programmatically change the `message` property, the input box updates accordingly.
 
 ### `v-model` with `defineModel`
+Look under `defineModel`
 
 ### 3. `v-for`
 
@@ -214,3 +215,14 @@ The `v-bind` directive in Vue.js is used to **dynamically bind an attribute**, a
 ```
 <div style="color: red; font-size: 14px;"></div>
 ```
+
+## Composition API Macros
+
+### `defineModel`
+`defineModel` is centered around prop and event binding for, `v-model`, facilitating 2-way data binding
+
+### `defineEmit`
+1. Defines & Registers events that a component can emit
+2. Facilirtares communication between child & parent components
+
+### `defineProps`
