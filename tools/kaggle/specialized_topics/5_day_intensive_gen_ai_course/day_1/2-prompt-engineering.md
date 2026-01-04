@@ -111,7 +111,9 @@ https://youtu.be/CFtX0ZyLSAY?si=q9pj9yIUPLdZs9WU
 
 ### 4.5 Chain of Thought (CoT)
 
-- **Chain of Thought (CoT) prompting** improves LLM reasoning by explicitly generating **intermediate steps** before the final answer. It enhances accuracy, interpretability and robustness across LLM versions and works well with zero-shot, one-shot, or few-shot setups. CoT is particularly useful for tasks like math, code generation, or structured problem solving, though it increases output length, cost and latency.
+- **Chain of Thought (CoT) prompting** improves LLM reasoning by explicitly generating **intermediate steps** before the final answer. 
+- It enhances accuracy, interpretability and robustness across LLM versions and works well with zero-shot, one-shot, or few-shot setups. 
+- CoT is particularly useful for tasks like math, code generation, or structured problem solving, though it increases output length, cost and latency.
 
 ### 4.6 Self-Consistency
 
