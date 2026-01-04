@@ -155,3 +155,15 @@ console.table({ name: "Alex", age: 21 });
   comment
 */
 ```
+
+## 12. Ternary Operator
+
+x ? y : z
+
+when x then y else z
+
+if (x) {
+  y
+} else {
+  z
+}
