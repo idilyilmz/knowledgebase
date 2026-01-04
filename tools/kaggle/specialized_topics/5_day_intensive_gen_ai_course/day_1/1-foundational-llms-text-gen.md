@@ -59,7 +59,7 @@ https://youtu.be/Na3O4Pkbp-U?si=77ZHyDZKbBvwE5oK
 
 #### 3.1.2 Multi-head attention
 
-- **Self-attention**: a crucial machanism in transformers: it enables them to focus on specific parts of the input sequence relevant to the task at hand and to capture long-range dependencies within sequences more effectively than traditional RNNs.
+- **Self-attention**: a crucial mechanism in transformers: it enables them to focus on specific parts of the input sequence relevant to the task at hand and to capture long-range dependencies within sequences more effectively than traditional RNNs.
 - IN OTHER WORDS: *Self-attention* is like a high-powered spotlight. Instead of just looking at the word its currently processing, the AI shines a light on all the other relevant words in the sentence to get the full picture. 
 
 ### 3.2 Understanding self-attention
