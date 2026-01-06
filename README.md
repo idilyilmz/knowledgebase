@@ -9,81 +9,27 @@ This repo is meant to grow over time and serve as my long-term learning archive.
 ```
 knowledgebase/
   frameworks/
-    react/
-    vue/
   programming/
     python/
     javascript-typescript/
-        basics/
-        functions/
-        async/
-        dom/
-        browser_apis/
-        concepts/
-        patterns/
-        testing/
-        ecosystem/
     java/
     patterns/
     algorithms/
   devops/
-    infrastructure/
-      compute/
-      storage/
-        nas/
-          synology/
-      networking/
-      os/
-      iam/
-      provisioning/
-      observability/
-      security/
-      cloud/
-      cicd_infra/
-      edge/
-         platform/
-    applications/
-    ci_cd/
-    reliability/
-    security/
-    data/
-    architecture/
-    governance/
-    tooling/
-    oci/
-    docker/
-    kubernetes/
   tools/
     firebase/
     kaggle/
-      intro_to_programming/
-      python/
-      intro_to_SQL/
-      advanced_SQL/
-      pandas/
-      geospatial_analysis/
     git/
-      basics/
-      branching/
-      remotes/
-      workflows/
-      configs/
-      advanced/
-      troubleshooting/
-      cheatsheets/
-      setup/
     linux/
   cs_fundamentals/
     networking/
     databases/
     hardware/
-      desktop_components/
     oop/  
   notes/
     books/
     courses/
     subjects/
-      professional_skills_program/
     projects/
 ```
 ---
