@@ -2,6 +2,7 @@
 https://www.kaggle.com/code/colinmorris/functions-and-getting-help
 
 ## Getting Help
+
 ```
 help(round)
 ```
@@ -20,6 +21,7 @@ It typically shows:
 2. <strong>A description</strong> of what the function does.
 
 ### 3. Common mistake: don’t call the function inside `help()`
+
 - Correct: `help(round)`
 - Incorrect: `help(round(-2.01))`
 
@@ -38,6 +40,7 @@ You can learn:
 
 #### Core takeaway
 
+
 Always pass the function itself (without parentheses) to `help()` to see how it works.
 Example:
 ```
@@ -49,6 +52,7 @@ help(len)
 This gives you the official documentation for that function.
 
 ### a. Defining functions
+
 Below is an example of a built-in function
 ```
 def least_difference (a, b, c):
@@ -71,6 +75,7 @@ print(
 ```
 
 Output:
+
 ```
 9 0 1
 ```
@@ -80,7 +85,9 @@ Output:
 ```
 help(least_difference)
 ```
+
 Output:
+
 ```
 Help on function least_difference in module __main__:
 
@@ -88,6 +95,7 @@ least_difference(a, b, c)
 ```
 
 #### a_a. Docstrings
+
 ```
 def least_difference(a, b, c):
     """Return the smallest difference between any two numbers
@@ -106,6 +114,7 @@ The `docstring` is a string with three quotes. These can be span over multiple l
 Docstrings include sometimes an example function call. These are maerked with `>>>`, like in Python's interactive shell. These examples aren't executed by Python. They're there for the reader. The doctstrings can be very helpful.
 
 ### a_b. Functions that don't return
+
 Without a `return` statement, the result of calling the functions is the special value `None`. 
 ```
 def least_difference(a, b, c):
@@ -128,7 +137,9 @@ Output:
 ```
 None None None 
 ```
+
 ### a_c. Default arguments
+
 `sep`
 
 ```
@@ -164,9 +175,11 @@ Hello, Colin
 Hello, Kaggle
 Hello, world
 ```
+
 ### d. Functions Applied to Functions
 
 #### Functions can be passed as argumnets
+
 - In Python, functions are "first-class objects"
 - This means you can:
    - Pass functions into other functions
@@ -194,6 +207,7 @@ squared_call(mult_by_five, 1) → mult_by_five(mult_by_five(1)) = 25
 ```
 
 #### Higher-order functions
+
 A <strong>higher-order function</strong> is any function that:
 - Takes another function as input, or 
 - Returns a function
@@ -201,6 +215,7 @@ A <strong>higher-order function</strong> is any function that:
 Python includes many built-in higher-order functions (`map`, `sorted`, `max` with a key)
 
 #### Using `max` with the `key` argument
+
 - `max()` normally returns the largest value
 - but with 'key=my_method', it instead returns the value that maximizes `key(x)` (the argmax)
 
@@ -216,6 +231,7 @@ max(100, 51, 14, key=mod_5)   → 14   (because 14 % 5 = 4, the largest remainde
 ```
 
 #### Key idea
+
 Higher-order functions let you customize behavior by supplying your own logic through a function.
 
 They enable more abstract, flexible programming patterns.

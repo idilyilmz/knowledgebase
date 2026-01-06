@@ -1,7 +1,7 @@
 # (4) Lists
 https://www.kaggle.com/code/colinmorris/lists
 
-List
+## 1. List
 ```
 primes = [2, 3, 5, 7]
 ```
@@ -26,7 +26,8 @@ list with different kinds of variables
 my_favourite_things = [32, 'raindrops on roses', help]
 # (Yes, Python's help function is *definitely* one of my favourite things)
 ```
-## Indexing
+### a. Indexing
+
 accessing individual elements with square brackets.
 
 ```
@@ -49,7 +50,7 @@ Output:
 ```
 'Neptune'
 ```
-## Slicing
+### b. Slicing
 ```
 planets[0:3]
 ```
@@ -98,7 +99,7 @@ Output
 ['Saturn', 'Uranus', 'Neptune']
 ```
 
-## Changing lists
+### c. Changing lists
 Lists can be changable in place. That means that lists are "mutable".
 
 So in the planets example if you do
@@ -117,7 +118,7 @@ Output:
  'Uranus',
  'Neptune']
 ```
-## List functions
+### d. List functions
 `len` gives the length of a list
 ```
 # How many planets are there?
@@ -134,11 +135,11 @@ Output:
 
 `max` gives the highest value
 
-## Interlude: Objects
+### e. Interlude: Objects
 - In python, everything is an object.
 - Objects carry data and functionality with them. You access these using dot syntax (`object.something`)
 
-### Attributes
+#### Attributes
 - Are stored inside an object
 
 Example
@@ -147,7 +148,7 @@ x = 12
 x.imag   # imaginary part → 0
 ```
 
-### Methods
+#### Methods
 - Are functions attached to an object.
 - Accessed using dot syntax and called with parantgeses.
 
@@ -156,17 +157,17 @@ Example
 x.bit_length()  # returns number of bits needed to represent x
 ```
 
-### use `help()` on methods
+#### use `help()` on methods
 example
 ```
 help(x.bit_length)
 ```
 
-### Main idea
+#### Main idea
 - Objects have attributes (data) and methods (functions).
 - Numbers, booleans, and functions don't have many useful methods, but lists (coming next) have many you’ll use regularly.
 
-## List methods
+### f. List methods
 `list.append` updates a list by adding an item to the end.
 ```
 # Pluto is a planet darn it!
@@ -195,7 +196,7 @@ Output:
 ['Mercury', 'Venus', 'Earth', 'Mars', 'Jupiter', 'Saturn', 'Uranus', 'Neptune']
 ```
 
-### Searching lists
+#### Searching lists
 `list.index` gets the index.
 ```
 planets.index('Earth')
@@ -225,7 +226,7 @@ Output:
 ```
 False
 ```
-## Tuples
+### g. Tuples
 - use parantheses `(1, 2, 3)` instead of square brackets `[ 1, 2, 3]`
 - can't be modified
 

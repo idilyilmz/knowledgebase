@@ -2,9 +2,10 @@
 
 https://www.kaggle.com/code/colinmorris/strings-and-dictionaries
 
-## Strings
+## 1. Strings
 
 ### a. String syntax
+
 - Strings can use single (`' '`) or double (`" "`) quotes — they work the same.
 - To include quotes inside strings, use the opposite quote type or escape with `\`.
 - `\n` creates a newline; `\\` creates a backslash.
@@ -19,12 +20,14 @@ https://www.kaggle.com/code/colinmorris/strings-and-dictionaries
 | \n               |              | "1\n2 3"                 | 1 *enter* 2 3        |
 
 ### b. Strings are sequences
+
 - You can index and slice strings like lists.
 - Strings are immutable — they cannot be modified in place.
 - You can loop over characters.
 - `len()` gives the string’s length.
 
 ### c. String methods
+
 - Useful methods include:
    - `.upper()`, `.lower()` for case conversion
    - `.index()` to find a substring
@@ -35,7 +38,8 @@ https://www.kaggle.com/code/colinmorris/strings-and-dictionaries
    - `+` concatenates strings.
    - `str.format()` inserts values using `{}` placeholders and supports formatting options (decimals, percentages, commas, indexing, etc.).
 
-## Dictionaries
+## 2. Dictionaries
+
 - Dictionaries map keys to values using `{}`.
 - Access values with `dict[key]`.
 - Add or update entries using the same syntax.

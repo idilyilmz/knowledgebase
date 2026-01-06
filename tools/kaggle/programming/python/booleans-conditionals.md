@@ -1,6 +1,7 @@
 # (3) Booleans and Conditionals
 
 ## Booleans
+
 a `bool` has two values. 
 - `True`
 - `False`
@@ -74,9 +75,11 @@ Is -1 odd? True
 ```
 
 #### Important
+
 Remember to use == instead of = when making comparisons. If you write n == 2 you are asking about the value of n. When you write n = 2 you are changing the value of n.
 
 ### b. Combining Boolean Values
+
 You combine booleans using the logical operators.
 1. `and`
 - True only if <strong>both</strong>
@@ -99,13 +102,16 @@ not False  # True
 ```
 
 #### Example with expressions
+
 ```
 x = 5
 (x > 2) and (x < 10)   # True
 (x == 5) or (x == 7)   # True
 not (x > 10)           # True
 ```
+
 ## Conditionals
+
 <strong>Purpose of Conditionals</strong>
 Conditionals let you run certain code only when a Boolean condition is true. They use the keywords: `if`, `elif` and `else`.
 
@@ -175,6 +181,7 @@ Always printed, regardless of x's value; x = 0
 - Indentation defines which lines belong to which block.
 
 ### a. Boolean conversion
+
 `int()` turns things into ints
 `float()` turns things into floats
 `bool()` turns things into bools
