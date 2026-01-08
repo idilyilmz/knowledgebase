@@ -1,4 +1,7 @@
 ```
+machine_learning/
+    pytorch/
+    TensorFlow/
 react/
 vue/
     reactivity/
@@ -6,6 +9,8 @@ vue/
         Ref-type.md
         ref.md
         watch.md
+    performance/
+        virtual-scroll.md
     directives.md
     events.md
     syntax.md
