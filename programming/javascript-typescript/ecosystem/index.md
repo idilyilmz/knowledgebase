@@ -2,9 +2,18 @@
 Stuff around JavaScript, not JS itself, tools & workflows
 
 ## 1. Package managers
-<strong>npm basics</strong>
 
-<strong>yarn</strong>
+### npm basics
+Use **npm** 
+- if you want the default (ships with Node.js)
+- for smaller projects or when following tutorials/docs
+- if you want built-in security auditing
+
+### yarn
+Use **Yarn**
+- if you're working with **monorepos** (using workspaces)
+- for faster and more reliable installs in large projects
+- if you need strong offline support
 
 <strong>pnpm</strong>
 
