@@ -4,6 +4,11 @@
     databases/
     hardware/
       desktop_components/
+      jetson-orin-nano/
+        architecture.md
+        cpu-gpu-npu.md
+        memory-and-storage.md
+        power-modes.md
+        io-interfaces.md
     oop/  
-
 ```

@@ -1,6 +1,6 @@
 # Installations
 
-# VSCode (January 2026)
+## VSCode (January 2026)
 
 To download VSCode on your Jetson, watch this very helpful YouTube Video
 
