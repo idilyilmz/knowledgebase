@@ -28,4 +28,17 @@ Everything related to testing JavaScript
 <strong>Testing Promises</strong>
 
 ## 4. Browser-level testing
-<strong>Playwright / Cypress (E2E basics)</strong>
+### 4.1 Playwright / Cypress (E2E basics)
+
+Look here for the official playwright documentation
+
+https://playwright.dev/docs/test-assertions 
+
+- **`.toBe()`**
+
+- **`.toContain()`**
+
+- **`.toEqual()`**
+
+
+
