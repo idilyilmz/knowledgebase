@@ -41,8 +41,12 @@ The steps that were done in this video were
 17. run `sudo dpkg -i stable` in your terminal. 
 18. Now that we have installed VSCode, you can start it up by running `code` in your terminal. **OR** you can search Visual Studio Code in activities.
 
-EXTRA's
+### EXTRA's
 
 Now that you've downloaded it
 - download the *python* extension.
 - now you can open a folder. 
+
+### TIPs!
+
+- you can ALWAYS run `clear` after you've ran a line in your terminal!
