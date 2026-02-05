@@ -72,6 +72,14 @@ $$
 
 ---
 
+### Sample Standard Deviation
+
+$$
+s = \sqrt{\frac{Σ(x_i - \bar{x})^2}{n - 1}}
+$$
+
+---
+
 ### Characters Meaning
 
 - **\(Σ\)**: Summation symbol, indicates adding a sequence of numbers.
