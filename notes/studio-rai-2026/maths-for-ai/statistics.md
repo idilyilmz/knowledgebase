@@ -24,7 +24,9 @@ To simplify, mathematicians use symbols:
 
 Thus, the mean can be expressed in notation as:
 
-$$X̄ = Σx / n$$
+$$
+X̄ = Σx / n
+$$
 
 This notation makes the process of calculating the mean more concise.
 
@@ -217,17 +219,17 @@ For an even number of values, quartiles fall between values. Use the following a
 
 The **Interquartile Range (IQR)** measures the spread of the middle **50%** of the data:
 
-\[ 
+$$
 \text{IQR} = Q3 - Q1 
-\]
+$$
 
 #### Worked Example of IQR
 
 Given \( Q1 = 4.5 \) and \( Q3 = 8.5 \):
 
-\[ 
+$$ 
 \text{IQR} = 8.5 - 4.5 = 4 
-\]
+$$
 
 #### Summary
 
