@@ -477,16 +477,15 @@ We expect that you are able to:
 #### Key Formulas
 
 - **Population Standard Deviation**: 
-
-  $$
-  \sigma = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
-  $$
+$$
+\sigma = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
+$$
   
 - **Sample Standard Deviation**: 
 
-  $$
-  s = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n - 1}
-  $$
+$$
+s = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n - 1}
+$$
 
 Where \( \σ \) and \( \mu \) denote the population standard deviation and mean, respectively, and \( s \) and \( \bar{x} \) denote the sample standard deviation and mean, respectively.
 
