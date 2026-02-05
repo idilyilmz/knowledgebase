@@ -503,3 +503,9 @@ Where \( \σ \) and \( \mu \) denote the population standard deviation and mean,
 #### Conclusion
 
 Standard deviation provides insights into the variation within a dataset. A larger standard deviation indicates greater variation in data points. The calculation process involves four clear steps to transform deviations into a usable measure of spread.
+
+#### Tip:
+- When the number of values increases by twofold, but the sum of squares remains the same: the variance is divided by two.
+- If the standard deviation increases by twofold, the variance also increases twofold.
+- The standard deviation is **not** a measure of association within the population distribution.
+
