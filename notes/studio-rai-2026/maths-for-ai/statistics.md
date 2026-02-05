@@ -477,6 +477,7 @@ We expect that you are able to:
 #### Key Formulas
 
 - **Population Standard Deviation**: 
+
 $$
 \sigma = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
 $$
