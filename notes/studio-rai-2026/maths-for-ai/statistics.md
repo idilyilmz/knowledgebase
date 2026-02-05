@@ -9,6 +9,8 @@ In this lesson you'll learn:
 - How to read mathematical notation
 - How to write the mean as a formula
 
+### Mean Lesson Summary 
+
 The **mean** is the average calculated from interval or ratio data. To find the mean, follow these steps:
 
 1. **Add all values** together.
@@ -73,6 +75,10 @@ For an even number of values, the median is the **mean** of the two middle value
 
 ## Range
 
+In this lesson you will learn:
+- What the variation of your data means
+- A first measure to you can use to express variation: the range
+
 ### Variation Lesson Summary
 
 **Variation** refers to the extent to which values in a dataset differ from each other. Understanding variation is crucial, as it provides insight into the distribution of data points around the center.
@@ -120,6 +126,13 @@ Understanding the range helps assess the spread of data effectively.
 
 ## Mode
 
+In this lesson you will learn:
+- What the Mode is
+- How you find the Mode
+
+Prerequisites:
+- Measurement levels
+
 ### Mode Lesson Summary
 
 In statistics, the **mode** is a measure of center that identifies the most frequently occurring value in a dataset. It helps in understanding which data point is most common, making it valuable for decision-making, such as in sales predictions.
@@ -151,3 +164,119 @@ For instance, an ice cream seller may want to know which flavor generates the mo
 #### Conclusion on Mode's Applicability
 
 The mode is particularly useful for **categorical data** because it identifies the most common category. However, it becomes less meaningful for **continuous data**, where values often do not repeat, making mode calculation less practical. This highlights that the mode may not be a convenient measure of center for continuous datasets.
+
+## Quartiles
+
+In this lesson you will learn:
+- What quartiles are and how to find them
+- What the Inter Quartile Range is and how to calculate it
+
+
+We assume you know how to find:
+- The range
+- The median
+
+### Quartiles and Interquartile Range (IQR) Lesson Summary
+
+**Variation** or **spread** indicates how much the values in a dataset differ from one another. This lesson focuses on quartiles, which provide a robust measure of variation, especially in the presence of outliers.
+
+#### Understanding Quartiles
+
+Quartiles split your dataset into four equal parts, with each part containing **25%** of the data. For many datasets, relying solely on the range (the difference between the maximum and minimum values) can be misleading, especially when outliers are present.
+
+#### Steps to Find the Quartiles
+
+1. **Order** all values in the dataset from lowest to highest.
+2. **Find the median** (also known as the second quartile or **Q2**).
+3. **Determine the first quartile (Q1)** by finding the median of the lower half of the data (including Q2).
+4. **Determine the third quartile (Q3)** by finding the median of the upper half of the data (including Q2).
+
+#### Worked Example: Odd Number of Values
+
+Given an unordered dataset, apply the above steps:
+
+1. **Ordered dataset**: [1, 2, 4, 5, 6, 8, 9, 105]
+2. **Median (Q2)**: **6**
+3. **First quartile (Q1)**: Median of [1, 2, 4, 5, 6] → **4**
+4. **Third quartile (Q3)**: Median of [6, 8, 9, 105] → **8**
+
+**Conclusion**: Quartiles are \( Q1 = 4 \), \( Q2 = 6 \), and \( Q3 = 8 \).
+
+#### Worked Example: Even Number of Values
+
+For an even number of values, quartiles fall between values. Use the following approach:
+
+1. **Ordered dataset**: [1, 2, 4, 5, 6, 8]
+2. **Median (Q2)**: \( \frac{6 + 8}{2} = 7 \)
+3. **First quartile (Q1)**: Median of [1, 2, 4, 5, 6] → **4.5**
+4. **Third quartile (Q3)**: Median of [8, 9, 105] → \( \frac{8 + 9}{2} = 8.5 \)
+
+**Conclusion**: Quartiles are \( Q1 = 4.5 \), \( Q2 = 7 \), and \( Q3 = 8.5 \).
+
+#### Interquartile Range (IQR)
+
+The **Interquartile Range (IQR)** measures the spread of the middle **50%** of the data:
+
+\[ 
+\text{IQR} = Q3 - Q1 
+\]
+
+#### Worked Example of IQR
+
+Given \( Q1 = 4.5 \) and \( Q3 = 8.5 \):
+
+\[ 
+\text{IQR} = 8.5 - 4.5 = 4 
+\]
+
+#### Summary
+
+- Quartiles split data into four equal parts, providing valuable insight into data distribution.
+- The IQR can be a more reliable measure of variation than the range, especially in the presence of outliers, as it reflects the distance between \( Q1 \) and \( Q3 \) and focuses on the middle 50% of the data.
+- Quartiles can be calculated using the median to find the values that partition the dataset effectively.
+
+## Quartiles - Second Method
+
+In this lesson you will learn:
+- What quartiles are and how to find them
+- What the Inter Quartile Range is and how to calculate it
+
+We assume you know how to find:
+- The range
+- The median
+
+*Note*:  This lesson is an adapted copy of the default lesson on quartiles. In contrast to the default lesson on quartiles, this lesson computes the quartiles without including the median. 
+
+### Key Differences in Summary
+
+- The explanation emphasizes that the **range** is not a reliable measure of variation due to the influence of outliers, specifically referencing the outlier **105**.
+- It introduces the concept of dividing data into **quartiles** for better insight into distribution.
+- The steps for finding quartiles clarify that the median is referred to as \(Q_2\), and it states explicitly that the calculation method differs for odd and even datasets.
+- In the worked example with odd numbers of values, it specifies that the median of the lower half does not include the overall median in its calculation.
+- The calculation of \(Q_1\) now reflects the median of the values **without including the overall median** for the first half, yielding \(Q_1 = 3\).
+- In the even-numbered example, it indicates that quartiles fall between two values and that the average of these two values must be calculated.
+- The Interquartile Range (IQR) is introduced as the range between \(Q_1\) and \(Q_3\), providing a better spread measure, calculated as \(\text{IQR} = Q_3 - Q_1\).
+
+### Conclusion of Key Differences
+
+The lesson emphasizes the importance of quartiles for assessing data variation and specifies how to calculate them based on whether the dataset has an odd or even number of values. It also introduces the IQR as a more robust measure of spread compared to the range.
+
+## Spread
+
+In this lesson you will learn:
+- What spread is
+- Why spread is important
+
+### Summary of Spread in Data
+
+Understanding **spread** is crucial in addition to analyzing the center of data. Spread refers to how much data values differ from one another and from the measure of center. 
+
+- **Example**: An average of **1,000** people travel by train hourly, with each wagon accommodating **100** people. If actual numbers vary significantly (e.g., doubling unexpectedly), relying solely on the average becomes inadequate for determining the number of required wagons.
+
+- **Dotplots** can visualize spread, where each dot represents a certain number of people. Variations in dot height indicate different numbers traveling at different times. Consistent dots across hours suggest no variation; fluctuating dots indicate significant variation.
+
+- To effectively allocate resources (like wagons), assessing spread is essential, as it helps identify peak travel times and necessary adjustments throughout the day. 
+
+### Conclusion
+
+Considering spread allows for a better understanding of data variability, making it vital for accurate planning and resource allocation. The more varied the data, the greater the spread, leading to more informed decision-making.
