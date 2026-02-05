@@ -280,3 +280,152 @@ Understanding **spread** is crucial in addition to analyzing the center of data.
 ### Conclusion
 
 Considering spread allows for a better understanding of data variability, making it vital for accurate planning and resource allocation. The more varied the data, the greater the spread, leading to more informed decision-making.
+
+## Measures of Speed
+
+In this lesson you will learn:
+- Why you would want to measure spread
+- That there are multiple measures of spread
+
+We assume that you know the following terms:
+- Spread
+- Measure of centre
+
+### Summary on Measures of Spread
+
+When comparing groups, evaluating the **spread** of data is as important as assessing the **center**. 
+
+#### Key Concepts
+
+- **Measure of Center**: The best description is **“The point around which most of the data is concentrated.”**
+- **Spread**: The most fitting description is **“How much the data values differ from each other.”**
+
+#### Visualizing Spread
+
+When inspecting the number of travelers at Gare de Lyon with a dotplot, you can determine the spread:
+
+- If there's **little to no spread**, it indicates consistent travel numbers.
+- If there's **a lot of spread**, it suggests significant variation in traveler numbers.
+
+#### Criteria for Adding Rush-Wagons
+
+To decide which route should receive rush-wagons (extra capacity), the best criterion is to look for the **highest measure of center**, as it indicates the time with the most travelers, especially during peak hours.
+
+#### Measures of Spread
+
+Typically, measures of spread include:
+
+- **Range**
+- **Mean Absolute Deviation (MAD)**
+- **Variance**
+- **Standard Deviation**
+
+Among these, **median** is **not** a measure of spread.
+
+#### Route Selection for Rush-Wagons
+
+Given measures of spread for different routes:
+
+- **Route 1**: 23.2
+- **Route 2**: 15.6
+- **Route 3**: 24.5
+- **Route 4**: 19.2
+
+You would choose **Route 3** for its highest measure of spread (24.5).
+
+### Conclusion
+
+Using numerical measures of spread allows for better decision-making when comparing multiple datasets, especially in dynamic contexts like train travel. Understanding these measures helps identify the variability within the data, allowing for more informed resource allocation.
+
+## Variance (conceptual)
+
+In this lesson you will learn:
+- What variance is
+- Why we use variance as a measure of spread
+
+We assume that you know the following concepts:
+- Spread
+- Mean absolute deviation
+
+### Summary on Variance as a Measure of Spread
+
+**Variance** is a statistical measure that quantifies how far individual data points in a dataset are from the mean, emphasizing the significance of extreme values through squaring deviations.
+
+#### Key Concepts
+
+- **Mean Absolute Deviation**: Best described as **“Average absolute deviation.”**
+- **Disadvantages of Mean Absolute Deviation**:
+  - It does not emphasize extreme values enough.
+  - It is mathematically difficult to optimize.
+
+#### Transition to Variance
+
+- Squaring deviations eliminates the negative sign and increases the impact of extreme values, making the variance more reflective of their significance.
+- **Variance** is defined as the **mean squared deviation** of values relative to their mean and is denoted by \( \sigma^2 \).
+
+#### Comparison of Variance
+
+When analyzing variance for running times:
+- **Jasper**: 22.5
+- **Joey**: 10.6
+- **Anna**: 26.6
+- **Kevin**: 8.4
+- **Michelle**: 19.7
+
+**Anna** has the largest spread based on variance (26.6).
+
+#### Flaw of Variance
+
+A key drawback of variance is that its unit is squared (e.g., squared minutes), making it challenging to interpret compared to the original data units.
+
+### Conclusion
+
+Variance effectively measures spread by emphasizing extreme values, but interpreting its results can be complicated due to its squared units. High variance indicates a greater spread in the dataset.
+
+## Variance (calculate)
+
+In this lesson you will learn:
+- How to calculate the variance
+
+We assume that you already know:
+- What spread is
+- What variance is
+- How to calculate an average
+- How to square numbers
+
+### Summary on Calculating Variance
+
+**Variance** measures the spread of data and is defined as **“The mean of the squared deviations.”** It is represented by the symbol \( \sigma^2 \).
+
+#### Steps to Calculate Variance
+
+1. **Calculate the Mean**:
+   - For a dataset (e.g., bowling scores), find the average score.
+  
+2. **Calculate Deviations**:
+   - Subtract the mean from each individual score to find the distance from the mean.
+
+3. **Square the Deviations**:
+   - Eliminate negative signs by squaring each deviation.
+
+4. **Calculate the Sum of Squared Deviations**:
+   - Add all squared deviations together.
+
+5. **Calculate the Variance**:
+   - Divide the sum of squared deviations by the number of observations.
+
+#### Conclusion
+
+The variance is derived through systematic steps involving the mean and squared deviations, providing a quantitative measure of data spread.
+
+## Standard Deviation (conceptual)
+In this lesson you will learn:
+- What a standard deviation is
+- Why we use the standard deviation as the standard measure of spread
+
+We assume that you know the following concepts:
+- Measurement level
+- Spread
+- Measures of spread
+- Variance
+
