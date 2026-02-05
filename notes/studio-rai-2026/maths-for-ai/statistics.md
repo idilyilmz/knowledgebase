@@ -441,7 +441,7 @@ The **standard deviation** is a key measure of spread, addressing some of the dr
 #### Transition to Standard Deviation
 
 - To convert variance back to the original unit, take the **square root**.
-- The standard deviation is represented by the symbol \( \sigma \) and is defined as the mean squared deviation in the units of the original variable.
+- The standard deviation is represented by the symbol \( \σ \) and is defined as the mean squared deviation in the units of the original variable.
 
 #### Advantages of Standard Deviation
 
@@ -475,16 +475,16 @@ We expect that you are able to:
 #### Key Formulas
 
 - **Population Standard Deviation**: 
-  \[
+  $$
   \sigma = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
-  \]
+  $$
   
 - **Sample Standard Deviation**: 
-  \[
+  $$
   s = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n - 1}
-  \]
+  $$
 
-Where \( \sigma \) and \( \mu \) denote the population standard deviation and mean, respectively, and \( s \) and \( \bar{x} \) denote the sample standard deviation and mean, respectively.
+Where \( \σ \) and \( \mu \) denote the population standard deviation and mean, respectively, and \( s \) and \( \bar{x} \) denote the sample standard deviation and mean, respectively.
 
 #### Steps to Calculate Standard Deviation
 
