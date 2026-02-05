@@ -18,7 +18,7 @@ The **mean** is the average calculated from interval or ratio data. To find the 
 
 To simplify, mathematicians use symbols: 
 
-- **Σ** (Sigma) for sum 
+- **Σ** (σ) for sum 
 - **n** for the number of values 
 - **X̄** (X-bar) to denote the mean
 
@@ -361,7 +361,7 @@ We assume that you know the following concepts:
 #### Transition to Variance
 
 - Squaring deviations eliminates the negative sign and increases the impact of extreme values, making the variance more reflective of their significance.
-- **Variance** is defined as the **mean squared deviation** of values relative to their mean and is denoted by \( \sigma^2 \).
+- **Variance** is defined as the **mean squared deviation** of values relative to their mean and is denoted by \( \σ^2 \).
 
 #### Comparison of Variance
 
@@ -395,7 +395,7 @@ We assume that you already know:
 
 ### Summary on Calculating Variance
 
-**Variance** measures the spread of data and is defined as **“The mean of the squared deviations.”** It is represented by the symbol \( \sigma^2 \).
+**Variance** measures the spread of data and is defined as **“The mean of the squared deviations.”** It is represented by the symbol \( \σ^2 \).
 
 #### Steps to Calculate Variance
 
@@ -429,3 +429,30 @@ We assume that you know the following concepts:
 - Measures of spread
 - Variance
 
+### Summary on Standard Deviation
+
+The **standard deviation** is a key measure of spread, addressing some of the drawbacks of variance. 
+
+#### Key Concepts
+
+- **Variance**: Best described as **“Average squared deviations.”**
+- **Disadvantage of Variance**: Its unit is squared (e.g., **sec²**), making interpretation difficult.
+
+#### Transition to Standard Deviation
+
+- To convert variance back to the original unit, take the **square root**.
+- The standard deviation is represented by the symbol \( \sigma \) and is defined as the mean squared deviation in the units of the original variable.
+
+#### Advantages of Standard Deviation
+
+- Mathematically manageable for optimization.
+- Emphasizes extreme values better than mean absolute deviation.
+- Its unit matches that of the original variable, enhancing interpretability.
+
+#### Application Example
+
+When assessing running times, Anna has the highest variance of **5.16**, indicating the largest spread among her peers.
+
+### Conclusion
+
+The standard deviation is considered the standard measure of spread due to its practicality and interpretability in statistical analysis.
