@@ -456,3 +456,46 @@ When assessing running times, Anna has the highest variance of **5.16**, indicat
 ### Conclusion
 
 The standard deviation is considered the standard measure of spread due to its practicality and interpretability in statistical analysis.
+
+## Standard Deviation
+
+In this lesson you will learn:
+- The standard way to measure variation.
+- What the Sum of Squares, Variance and Standard Deviation are.
+- A handy way to calculate the standard deviation.
+
+We expect that you are able to:
+- Calculate a mean.
+- Square a number.
+
+### Summary on Standard Deviation
+
+**Standard Deviation** is the primary measure of variation, reflecting the average distance of data points from the mean.
+
+#### Key Formulas
+
+- **Population Standard Deviation**: 
+  \[
+  \sigma = \frac{\sum_{i=1}^{N} (x_i - \mu)^2}{N}
+  \]
+  
+- **Sample Standard Deviation**: 
+  \[
+  s = \frac{\sum_{i=1}^{n} (x_i - \bar{x})^2}{n - 1}
+  \]
+
+Where \( \sigma \) and \( \mu \) denote the population standard deviation and mean, respectively, and \( s \) and \( \bar{x} \) denote the sample standard deviation and mean, respectively.
+
+#### Steps to Calculate Standard Deviation
+
+1. **Calculate Deviation Scores**: Find the difference between each value and the mean.
+  
+2. **Calculate Sum of Squares (SS)**: Square each deviation and sum them.
+  
+3. **Calculate Variance**: Divide the sum of squares by the number of observations (using \( n - 1 \) for samples).
+  
+4. **Calculate Standard Deviation**: Take the square root of the variance.
+
+#### Conclusion
+
+Standard deviation provides insights into the variation within a dataset. A larger standard deviation indicates greater variation in data points. The calculation process involves four clear steps to transform deviations into a usable measure of spread.
