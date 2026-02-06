@@ -723,3 +723,70 @@ For a new scenario investigating reaction times of two groups:
 #### Conclusion
 
 By conducting an F-test, researchers can effectively evaluate whether two samples likely originate from the same population or different populations based on their variances. The results offer insights into the significance of their findings regarding variance differences.
+
+#### Tips
+- The F-value is always positive
+- The measurement level of independent variable in an F-tets is **nominal**
+- The measurement level of the dependent variable of an F-test is **ratio**
+- You use the F-test to determine a difference between **variances**
+- You use the F-test for: **difference between samples**
+
+## ANOVA
+
+In this lesson you'll learn:
+- What error inflation is.
+- What an ANOVA is.
+- What you can use an ANOVA for.
+- How an ANOVA works.
+
+We assume that you know the following concepts:
+- Type-I and Type-II errors.
+
+### Summary of ANOVA and Error Rate Inflation
+
+The minister of agriculture has requested an analysis of crop yields from three types of grain (A, B, and C) grown by seven farmers. The objective is to determine if there are significant differences in yield among these types.
+
+#### Key Data
+
+- **Mean Yields**:
+  - Type A: **125.9**
+  - Type B: **130.6**
+  - Type C: **124.3**
+
+#### Error Rate Inflation
+
+When comparing means using multiple tests, such as t-tests, the risk of a **Type I error** (incorrectly rejecting a true null hypothesis) increases. Performing three separate tests can inflate this error rate from **5%** to **14%**. This phenomenon is known as **error rate inflation** or **multiple comparison error**.
+
+#### Solution: ANOVA
+
+In response to the error rate inflation issue, **ANOVA (ANalysis Of VAriance)** was developed by Fisher in the 1920s. It helps to determine if there are differences among group means by analyzing their variances.
+
+##### How ANOVA Works
+
+1. **Total Variation vs. Within-Group Variation**: 
+   - If group means are similar, the variances will also be similar.
+   - A large difference in means results in greater total variance compared to within-group variance.
+
+2. **Calculating Variance**: 
+   - Squaring the differences between the data points and their group mean prevents cancellation of positive and negative values.
+   - Two key calculations:
+     - The distance squared between the grand mean and each group mean.
+     - The distance squared between each data point and its respective group mean.
+
+3. **Deriving ANOVA Results**:
+   - Compare the mean squared differences between groups and within groups.
+   - A significant difference is indicated when the variance between groups is substantially larger than the variance within groups.
+
+#### Conclusion
+
+ANOVA effectively assesses differences between multiple group means without inflating the error rate. While it indicates that at least two means differ significantly, it does not specify which means differ from one another. Future lessons will cover the mathematical execution of ANOVA and how to use SPSS for these calculations.
+
+#### Tips
+- What does the abbreviation ANOVA mean?: **Analysis of Variance**
+- An ANOVA can **not** be used to find out which of the groups has a higher mean.
+- What is the null hypothesis for an ANOVA test?: **H0 : μ1 = μ2 = μ3**
+- What is the measurement level of the dependent variable in an ANOVA?: **Interval**
+- Where do you use ANOVA for? **to compare means**
+- Which statistical test do you use in an ANOVA? **F-Test**
+
+​## ANOVA Calculations
