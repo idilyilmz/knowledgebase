@@ -551,8 +551,6 @@ We assume you completed the following lesson:
 
 The assignment involves advising an ambulance service on the best route for delivering donor organs within 4 hours. Two routes are considered: the **highway** and the **city center**. 
 
----
-
 #### Key Data Points
 
 | Route         | Mean (hours) | Median (hours) |
@@ -562,21 +560,15 @@ The assignment involves advising an ambulance service on the best route for deli
 
 Based on initial data, the highway seemed to be the better choice for a quicker delivery. However, complications arose when it was found that although the highway is generally faster, it can become significantly delayed during accidents. In contrast, the city center, while usually slower, allows for alternative routes, ensuring deliveries stay under the 4-hour limit.
 
----
-
 #### Importance of Variation
 
 The lesson emphasizes the importance of understanding both the **measure of center** (mean and median) and the **variation** (spread of data). This is crucial because relying solely on central measures can lead to flawed decisions, as illustrated by the unfortunate incident of late organ delivery.
-
----
 
 #### Box Plot Overview
 
 - **Middle Bar**: Represents the **median**.
 - **Box**: Encloses the **middle 50%** of the data, defined by the first quartile (Q1) and third quartile (Q3).
 - **Lines**: Indicate the minimum and maximum values.
-
----
 
 #### Conclusion
 
@@ -595,8 +587,6 @@ We assume you know:
 
 When visualizing a large dataset of people's ages, using a bar graph can be challenging because age is measured on a **ratio scale**. Bar graphs are more suitable for **nominal/ordinal** data. 
 
----
-
 #### Solutions
 
 1. **Grouping Ages**: 
@@ -604,8 +594,6 @@ When visualizing a large dataset of people's ages, using a bar graph can be chal
   
 2. **Using Classes/Bins**: 
    - Create fixed groups (e.g., 8 bins each covering a 4-year range).
-
----
 
 #### Histograms
 
@@ -615,8 +603,51 @@ When using fixed groups, the chart becomes a **histogram**:
   - Recommended group count is typically **8-10**.
   - Bars are adjacent, indicating continuous data connection.
 
----
-
 #### Conclusion
 
 For interval/ratio data, a histogram is preferred, allowing for clearer representation of age distribution compared to a bar graph.
+
+## Normal Distribution
+
+In this lesson you will learn:
+- What the Normal distribution is.
+- Important characteristics of the Normal distribution.
+- How you can use a Normal distribution to predict how likely it is to find a certain value.
+
+We assume you have seen the following terms before:
+- The measures of central tendency: mean, mode, median.
+- Standard deviation.
+
+### Summary of Normal Distribution
+
+The **Normal distribution**, often represented as a **bell curve**, is a common distribution for continuous variables. Key characteristics include:
+
+#### Key Features
+
+- The peak of the curve represents the **mean**, and the height indicates the frequency of values.
+- Values further from the mean occur less frequently. For example, the **IQ** scores are normally distributed with a **mean of 100** and a **standard deviation of 15**.
+
+#### Axes Description
+
+- **X-axis**: Represents the continuous variable.
+- **Y-axis**: Represents frequency or probability of observing that value.
+
+#### Symmetry and Values
+
+- The distribution is **perfectly symmetric**, meaning **50%** of data is on either side of the mean.
+- The **mean**, **median**, and **mode** are all located at the same point on the curve.
+
+#### Standard Deviation
+
+- A **small standard deviation** indicates low variation, resulting in a **narrow** curve.
+- A **large standard deviation** indicates high variation, resulting in a **wider** curve.
+
+#### Empirical Rule
+
+The **Empirical Rule** quantifies the likelihood of observing certain scores:
+- **68%** of values fall within **±1** standard deviation from the mean.
+- **95%** of values fall within **±2** standard deviations from the mean.
+
+#### Conclusion
+
+The Normal distribution serves as a fundamental concept in statistics, characterized by its symmetry, the relationship of mean, median, and mode, and the predictive capabilities offered by the Empirical Rule.
