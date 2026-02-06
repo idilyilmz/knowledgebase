@@ -808,9 +808,11 @@ We assume you have followed the following lesson:
 ANOVA tests whether **group means differ** by comparing variation **between groups** vs **within groups** using an **F-test**.
 
 If
+
 $$
 F_{test} > F_{critical}
 $$
+
 → at least one group mean is significantly different.
 
 ### Core idea
@@ -836,9 +838,10 @@ Mean of **all observations combined**
 #### 3. Calculate sums of squares
 
 **Between groups (SSB)**
-[
+
+$$
 SSB = \sum n(\bar{x}*i - \bar{x}*{grand})^2
-]
+$$
 
 Measures how far group means are from the overall mean.
 
@@ -855,6 +858,7 @@ Measures spread inside each group.
 $$
 df_1 = c - 1 \quad (\text{between groups})
 $$
+
 $$
 df_2 = N - c \quad (\text{within groups})
 $$
@@ -869,6 +873,7 @@ Where
 $$
 MSB = \frac{SSB}{df_1}
 $$
+
 $$
 MSW = \frac{SSW}{df_2}
 $$
