@@ -2,7 +2,7 @@
 
 Everything you need to know for statistics !
 
-## Mean
+## 1. Mean
 
 In this lesson you'll learn:
 
@@ -30,7 +30,7 @@ $$
 
 This notation makes the process of calculating the mean more concise.
 
-## Median
+## 2. Median
 
 In this lesson you will learn:
 - What a measure of centre is.
@@ -75,7 +75,7 @@ For an even number of values, the median is the **mean** of the two middle value
 - It is particularly beneficial in the presence of outliers, ensuring a more representative measure of center.
 - Calculating the median requires arranging the data, counting values, determining the middle position, and finding that middle value.
 
-## Range
+## 3. Range
 
 In this lesson you will learn:
 - What the variation of your data means
@@ -126,7 +126,7 @@ $$
 
 Understanding the range helps assess the spread of data effectively.
 
-## Mode
+## 4. Mode
 
 In this lesson you will learn:
 - What the Mode is
@@ -167,7 +167,7 @@ For instance, an ice cream seller may want to know which flavor generates the mo
 
 The mode is particularly useful for **categorical data** because it identifies the most common category. However, it becomes less meaningful for **continuous data**, where values often do not repeat, making mode calculation less practical. This highlights that the mode may not be a convenient measure of center for continuous datasets.
 
-## Quartiles
+## 5. Quartiles
 
 In this lesson you will learn:
 - What quartiles are and how to find them
@@ -237,7 +237,7 @@ $$
 - The IQR can be a more reliable measure of variation than the range, especially in the presence of outliers, as it reflects the distance between \( Q1 \) and \( Q3 \) and focuses on the middle 50% of the data.
 - Quartiles can be calculated using the median to find the values that partition the dataset effectively.
 
-## Quartiles - Second Method
+## 6. Quartiles - Second Method
 
 In this lesson you will learn:
 - What quartiles are and how to find them
@@ -263,7 +263,7 @@ We assume you know how to find:
 
 The lesson emphasizes the importance of quartiles for assessing data variation and specifies how to calculate them based on whether the dataset has an odd or even number of values. It also introduces the IQR as a more robust measure of spread compared to the range.
 
-## Spread
+## 7. Spread
 
 In this lesson you will learn:
 - What spread is
@@ -283,7 +283,7 @@ Understanding **spread** is crucial in addition to analyzing the center of data.
 
 Considering spread allows for a better understanding of data variability, making it vital for accurate planning and resource allocation. The more varied the data, the greater the spread, leading to more informed decision-making.
 
-## Measures of Speed
+## 8. Measures of Speed
 
 In this lesson you will learn:
 - Why you would want to measure spread
@@ -339,7 +339,7 @@ You would choose **Route 3** for its highest measure of spread (24.5).
 
 Using numerical measures of spread allows for better decision-making when comparing multiple datasets, especially in dynamic contexts like train travel. Understanding these measures helps identify the variability within the data, allowing for more informed resource allocation.
 
-## Variance (conceptual)
+## 9. Variance (conceptual)
 
 In this lesson you will learn:
 - What variance is
@@ -384,7 +384,7 @@ A key drawback of variance is that its unit is squared (e.g., squared minutes), 
 
 Variance effectively measures spread by emphasizing extreme values, but interpreting its results can be complicated due to its squared units. High variance indicates a greater spread in the dataset.
 
-## Variance (calculate)
+## 10. Variance (calculate)
 
 In this lesson you will learn:
 - How to calculate the variance
@@ -420,7 +420,7 @@ We assume that you already know:
 
 The variance is derived through systematic steps involving the mean and squared deviations, providing a quantitative measure of data spread.
 
-## Standard Deviation (conceptual)
+## 11. Standard Deviation (conceptual)
 In this lesson you will learn:
 - What a standard deviation is
 - Why we use the standard deviation as the standard measure of spread
@@ -459,7 +459,7 @@ When assessing running times, Anna has the highest variance of **5.16**, indicat
 
 The standard deviation is considered the standard measure of spread due to its practicality and interpretability in statistical analysis.
 
-## Standard Deviation
+## 12. Standard Deviation
 
 In this lesson you will learn:
 - The standard way to measure variation.
@@ -505,11 +505,12 @@ Where \( \σ \) and \( \mu \) denote the population standard deviation and mean,
 Standard deviation provides insights into the variation within a dataset. A larger standard deviation indicates greater variation in data points. The calculation process involves four clear steps to transform deviations into a usable measure of spread.
 
 #### Tip:
+
 - When the number of values increases by twofold, but the sum of squares remains the same: the variance is divided by two.
 - If the standard deviation increases by twofold, the variance also increases twofold.
 - The standard deviation is **not** a measure of association within the population distribution.
 
-## Population and Sample
+## 13. Population and Sample
 
 After this lesson you know:
 - What the difference is between the sample and the population.
@@ -523,6 +524,7 @@ After this lesson you know:
 **Sample**: A smaller subset drawn from the population, used to make inferences about the larger group. It is crucial for the sample to be **representative**, reflecting the population's characteristics, such as age and education level.
 
 #### Notation:
+
 - **Population characteristics** are indicated by **Greek letters**:
   - **μ**: Population mean
   - **σ**: Population standard deviation
@@ -536,7 +538,7 @@ After this lesson you know:
 
 This distinction between population and sample is fundamental in statistics.
 
-## Box Plot
+## 14. Box Plot
 
 In this lesson you will learn:
 - What variance is and why it is so important
@@ -574,7 +576,7 @@ The lesson emphasizes the importance of understanding both the **measure of cent
 
 A box plot effectively visualizes both the measure of center and the variation of data. Understanding the variation allows decision-makers, such as the ambulance service manager, to make more informed choices, avoiding potential disasters in critical situations.
 
-## Histogram
+## 15. Histogram
 
 In this lesson you will learn:
 - What a histogram is and how to make one
@@ -607,7 +609,7 @@ When using fixed groups, the chart becomes a **histogram**:
 
 For interval/ratio data, a histogram is preferred, allowing for clearer representation of age distribution compared to a bar graph.
 
-## Normal Distribution
+## 16. Normal Distribution
 
 In this lesson you will learn:
 - What the Normal distribution is.
@@ -653,10 +655,11 @@ The **Empirical Rule** quantifies the likelihood of observing certain scores:
 The Normal distribution serves as a fundamental concept in statistics, characterized by its symmetry, the relationship of mean, median, and mode, and the predictive capabilities offered by the Empirical Rule.
 
 #### Tips
+
 - In the normal distribution, the mean, the mode and the median are equal.
 - Normally distributed means that the scores of most people are relatively close to the mean, compared to the scores far removed from to the mean.
 
-## F-Test
+## 17. F-Test
 
 In this lesson you will learn:
 - What an F-distribution is.
@@ -725,13 +728,14 @@ For a new scenario investigating reaction times of two groups:
 By conducting an F-test, researchers can effectively evaluate whether two samples likely originate from the same population or different populations based on their variances. The results offer insights into the significance of their findings regarding variance differences.
 
 #### Tips
+
 - The F-value is always positive
 - The measurement level of independent variable in an F-tets is **nominal**
 - The measurement level of the dependent variable of an F-test is **ratio**
 - You use the F-test to determine a difference between **variances**
 - You use the F-test for: **difference between samples**
 
-## ANOVA
+## 18. ANOVA
 
 In this lesson you'll learn:
 - What error inflation is.
@@ -789,4 +793,111 @@ ANOVA effectively assesses differences between multiple group means without infl
 - Where do you use ANOVA for? **to compare means**
 - Which statistical test do you use in an ANOVA? **F-Test**
 
-​## ANOVA Calculations
+## 19. ANOVA Calculations
+
+In this lesson you will learn:
+- What steps to take to perform an ANOVA.
+- What calculations you should when performing an ANOVA.
+
+We assume you have followed the following lesson:
+- ANOVA.
+
+### Concise summary — ANOVA calculations (by hand)
+
+**Goal:**
+ANOVA tests whether **group means differ** by comparing variation **between groups** vs **within groups** using an **F-test**.
+
+If
+$$
+F_{test} > F_{critical}
+$$
+→ at least one group mean is significantly different.
+
+### Core idea
+
+Total variation is split into two parts:
+
+1. **Between groups** → difference of each group mean from the grand mean
+2. **Within groups** → difference of each value from its own group mean
+
+ANOVA checks whether between-group variation is large relative to within-group variation.
+
+### Steps to calculate ANOVA test value
+
+#### 1. Calculate group means
+
+Mean of each group separately.
+
+#### 2. Calculate the grand mean
+
+Mean of **all observations combined**
+(If group sizes equal → average the group means)
+
+#### 3. Calculate sums of squares
+
+**Between groups (SSB)**
+[
+SSB = \sum n(\bar{x}*i - \bar{x}*{grand})^2
+]
+
+Measures how far group means are from the overall mean.
+
+**Within groups (SSW)**
+
+$$
+SSW = \sum (x_{ij} - \bar{x}_i)^2
+$$
+
+Measures spread inside each group.
+
+#### 4. Degrees of freedom
+
+$$
+df_1 = c - 1 \quad (\text{between groups})
+$$
+$$
+df_2 = N - c \quad (\text{within groups})
+$$
+
+Where
+
+* (c) = number of groups
+* (N) = total observations
+
+#### 5. Mean squares
+
+$$
+MSB = \frac{SSB}{df_1}
+$$
+$$
+MSW = \frac{SSW}{df_2}
+$$
+
+These are average variances.
+
+#### 6. F-value
+
+$$
+F = \frac{MSB}{MSW}
+$$
+
+* MSB is always on top
+* F ≥ 1 → one-sided test
+
+### Interpretation
+
+* **Large F** → groups differ more than expected by chance → significant
+* **Small F** → differences likely random
+
+### Key terms
+
+* **SSB**: variance between groups
+* **SSW**: variance within groups
+* **MSB**: mean variance between
+* **MSW**: mean variance within
+* **F-test**: compares MSB and MSW
+
+### Final takeaway
+
+ANOVA determines whether group means differ by comparing **signal (between-group variation)** to **noise (within-group variation)**.
+If the signal is big enough → at least one mean is different.
