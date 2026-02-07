@@ -1,12 +1,12 @@
 # OOP
 
-### What is OOP?
+## What is OOP?
 - OOP (Object Oriented Programming) is a programming style built around <strong> objects </strong>.
 - <strong>Objects</strong> are things with data (properties) + behaviour (methods).
 - Makes code more modular, reusable and easier to understand.
 - Used in many languages like Java, Python, C# and JS/TS.
 
-### The four pillars of OOP
+## The four pillars of OOP
 | Concept       | Short Definition                                       | Quick Example                             |
 |---------------|--------------------------------------------------------|-------------------------------------------|
 | Encapsulation | Keep data and behavior together; hide internal details | Private variables in a class              |
@@ -14,7 +14,7 @@
 | Inheritance   | Let one class reusable another's features              | `Dog` extends `Animal`                    |
 | Polymorphism  | Same action behaves differently for each object        | `speak()` → Dog barks, Cat meows          |
 
-### Why does OOP matter?
+## Why does OOP matter?
 Why use OOP?
 - Encourages cleaner, structured code.
 - makes programs easier to debug and scale.
@@ -77,6 +77,7 @@ class Dog extends Animal {
     }
 }
 ```
+
 ## Polymorphism (🔄)
 One interface, many behaviors (multiple forms represented by the same method)
 - Means "many forms"
