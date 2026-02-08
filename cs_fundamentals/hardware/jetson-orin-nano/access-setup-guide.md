@@ -24,7 +24,7 @@ This file was made by Claude AI by my instructions
 ## 1. Setting Static IP on Jetson
 
 ### Why?
-A static IP ensures your Jetson always has the same local network address (e.g., `192.168.10.88`).
+A static IP ensures your Jetson always has the same local network address (e.g., `192.168.10.xxx`).
 
 ### Steps:
 
@@ -34,9 +34,9 @@ A static IP ensures your Jetson always has the same local network address (e.g.,
 3. Go to **IPv4** tab
 4. Change method to **Manual**
 5. Fill in:
-   - **Address**: `192.168.10.88` (your chosen static IP)
+   - **Address**: `192.168.10.xxx` (your chosen static IP)
    - **Netmask**: `255.255.255.0`
-   - **Gateway**: `192.168.10.1` (your router IP)
+   - **Gateway**: `192.168.x.1` (your router IP)
    - **DNS**: `8.8.8.8, 8.8.4.4`
 6. Click **Apply**
 7. Toggle connection OFF then ON
@@ -47,8 +47,8 @@ A static IP ensures your Jetson always has the same local network address (e.g.,
 nmcli connection show --active
 
 # Set static IP (replace "profile 1" with your connection name)
-sudo nmcli connection modify "profile 1" ipv4.addresses 192.168.10.88/24
-sudo nmcli connection modify "profile 1" ipv4.gateway 192.168.10.1
+sudo nmcli connection modify "profile 1" ipv4.addresses 192.168.10.xxx/24
+sudo nmcli connection modify "profile 1" ipv4.gateway 192.168.x.1
 sudo nmcli connection modify "profile 1" ipv4.dns "8.8.8.8 8.8.4.4"
 sudo nmcli connection modify "profile 1" ipv4.method manual
 
@@ -70,7 +70,7 @@ sudo apt install nmap
 ```
 
 **Safe IP choices:**
-- Low numbers: `192.168.10.10`, `192.168.10.20`, `192.168.10.50`
+- Low numbers: `192.168.x.10`, `192.168.10.20`, `192.168.10.50`
 - High numbers: `192.168.10.200`, `192.168.10.210`, `192.168.10.250`
 - Avoid IPs in your router's DHCP range (usually 100-199)
 
@@ -102,8 +102,8 @@ A URL will appear - open it in a browser to authenticate with Google/GitHub/etc.
 Both devices should appear in your Tailscale admin console with IP addresses starting with `100.x.x.x`
 
 Example:
-- Jetson: `100.111.167.48`
-- PC: `100.111.167.x`
+- Jetson: `100.aaa.bbb.cc`
+- PC: `100.x.x.x`
 
 ---
 
@@ -113,10 +113,10 @@ Example:
 
 From your PC (Command Prompt or PowerShell):
 ```bash
-ssh jetson@100.111.167.48
+ssh jetson@100.aaa.bbb.cc
 ```
 
-Replace `100.111.167.48` with your Jetson's actual Tailscale IP.
+Replace `100.aaa.bbb.cc` with your Jetson's actual Tailscale IP.
 
 ### Important Notes:
 - Username is `jetson` (or whatever `whoami` shows on your Jetson)
@@ -151,19 +151,19 @@ Press **Enter** 3 times (accept defaults, no passphrase)
 
 **Option A - If `ssh-copy-id` works:**
 ```bash
-ssh-copy-id jetson@100.111.167.48
+ssh-copy-id jetson@100.aaa.bbb.cc
 ```
 
 **Option B - If `ssh-copy-id` doesn't exist:**
 ```bash
-type %USERPROFILE%\.ssh\id_ed25519.pub | ssh jetson@100.111.167.48 "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+type %USERPROFILE%\.ssh\id_ed25519.pub | ssh jetson@100.aaa.bbb.cc "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
 Enter your Jetson password **one last time**.
 
 #### 3. Test:
 ```bash
-ssh jetson@100.111.167.48
+ssh jetson@100.aaa.bbb.cc
 ```
 
 Should connect **without asking for password**!
@@ -184,7 +184,7 @@ Should connect **without asking for password**!
 - Press `F1` or `Ctrl+Shift+P`
 - Type "Remote-SSH: Connect to Host"
 - Click "Add New SSH Host"
-- Enter: `ssh jetson@100.111.167.48`
+- Enter: `ssh jetson@100.aaa.bbb.cc`
 - Choose config file (first option)
 - Click "Connect"
 
@@ -327,7 +327,7 @@ python3 your_script.py
 **Solution:** Use `nmcli` method instead of GUI:
 ```bash
 sudo nmcli connection modify "your-connection-name" ipv4.method manual
-sudo nmcli connection modify "your-connection-name" ipv4.addresses 192.168.10.88/24
+sudo nmcli connection modify "your-connection-name" ipv4.addresses 192.168.10.xxx/24
 sudo nmcli connection down "your-connection-name"
 sudo nmcli connection up "your-connection-name"
 ```
@@ -394,7 +394,7 @@ whoami
 
 2. Use that username instead of `jetson`:
 ```bash
-ssh actual-username@100.111.167.48
+ssh actual-username@100.aaa.bbb.cc
 ```
 
 3. If still not working, set up SSH keys (no password needed)
@@ -404,16 +404,16 @@ ssh actual-username@100.111.167.48
 ## Quick Reference Card
 
 ### Your Network Info:
-- **Jetson Static IP:** `192.168.10.88`
-- **Router/Gateway:** `192.168.10.1`
+- **Jetson Static IP:** `192.168.10.xxx`
+- **Router/Gateway:** `192.168.x.1`
 - **DNS Servers:** `8.8.8.8, 8.8.4.4`
-- **Jetson Tailscale IP:** `100.111.167.48` (example)
+- **Jetson Tailscale IP:** `100.aaa.bbb.cc` (example)
 
 ### Common Commands:
 
 ```bash
 # Connect to Jetson
-ssh jetson@100.111.167.48
+ssh jetson@100.aaa.bbb.cc
 
 # Check if on Jetson
 hostname
