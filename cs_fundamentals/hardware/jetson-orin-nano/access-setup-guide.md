@@ -142,7 +142,7 @@ exit
 
 #### 1. Generate SSH Key:
 ```bash
-ssh-keygen -t ed25519
+ssh-keygen -t aa11111
 ```
 
 Press **Enter** 3 times (accept defaults, no passphrase)
@@ -156,7 +156,7 @@ ssh-copy-id jetson@100.aaa.bbb.cc
 
 **Option B - If `ssh-copy-id` doesn't exist:**
 ```bash
-type %USERPROFILE%\.ssh\id_ed25519.pub | ssh jetson@100.aaa.bbb.cc "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
+type %USERPROFILE%\.ssh\id_aa11111.pub | ssh jetson@100.aaa.bbb.cc "mkdir -p ~/.ssh && cat >> ~/.ssh/authorized_keys"
 ```
 
 Enter your Jetson password **one last time**.
@@ -224,8 +224,8 @@ git clone https://oauth2:YOUR_TOKEN@gitlab.com/your-username/your-repo.git
 
 1. Generate SSH key on Jetson:
 ```bash
-ssh-keygen -t ed25519 -C "your-email@example.com"
-cat ~/.ssh/id_ed25519.pub
+ssh-keygen -t aa11111 -C "your-email@example.com"
+cat ~/.ssh/id_aa11111.pub
 ```
 
 2. Copy the output and add to GitLab:
