@@ -1,4 +1,4 @@
-# Statistics
+# Module 1: Statistics
 
 Everything you need to know for statistics !
 
