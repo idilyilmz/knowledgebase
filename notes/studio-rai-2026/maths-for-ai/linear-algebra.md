@@ -408,11 +408,12 @@ In this conceptual explanation you will learn about:
 
 For this conceptual explanation you are assumed to be familiar with:
 - Calculations with matrices.
-# Inverse Matrix
+
+### Inverse Matrix
 
 An **inverse matrix** is a matrix that, when multiplied by its original matrix, yields the **identity matrix**. It is commonly denoted with a superscript $$-1$$.
 
-### Definition
+#### Definition
 For a square $$ n \times n $$ matrix $$ \mathbf{A} $$ and its inverse $$ \mathbf{A}^{-1} $$:
 
 $$
@@ -421,7 +422,7 @@ $$
 
 where $$ \mathbf{I}_n $$ is the $$ n \times n $$ identity matrix.
 
-#### Example
+##### Example
 Let 
 
 $$
@@ -460,7 +461,7 @@ $$
 \end{pmatrix} = \mathbf{I}_3
 $$
 
-### Conditions for Invertibility
+#### Conditions for Invertibility
 Not all matrices have an inverse. A matrix is considered **invertible** if:
 
 - An inverse matrix $$ \mathbf{A}^{-1} $$ exists.
