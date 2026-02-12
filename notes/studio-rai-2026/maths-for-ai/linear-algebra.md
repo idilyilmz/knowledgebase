@@ -26,13 +26,13 @@ Unit vectors aid in simplifying calculations and maintaining directional consist
 The **dot product**, also known as the **scalar product**, combines two vectors to produce a single scalar value. It measures how much two vectors point in the same direction.
 
 ### Formula
-The dot product of two vectors \(\mathbf{a}\) and \(\mathbf{b}\) is calculated as:
+The dot product of two vectors $$\mathbf{a}$$ and $$\mathbf{b}$$ is calculated as:
 
 $$
 \mathbf{a} \cdot \mathbf{b} = |\mathbf{a}| |\mathbf{b}| \cos(\theta)
 $$
 
-where \( |\mathbf{a}| \) and \( |\mathbf{b}| \) are the magnitudes (lengths) of vectors \(\mathbf{a}\) and \(\mathbf{b}\), and \(\theta\) is the angle between them.
+where $$ |\mathbf{a}| $$ and $$ |\mathbf{b}| $$ are the magnitudes (lengths) of vectors $$\mathbf{a}$$ and $$\mathbf{b}$$, and $$\theta$$ is the angle between them.
 
 If the components of the vectors are known (e.g., for 2D vectors $$\mathbf{a} = (a_1, a_2)$$ and $$\mathbf{b} = (b_1, b_2)$$ the dot product can be expressed as:
 
@@ -58,13 +58,13 @@ $$
 The **length** (or magnitude) of a vector is calculated by finding the square root of the sum of the squares of its components. 
 
 ### Formulas
-- For a 2D vector \(\mathbf{v} = (x, y)\):
+- For a 2D vector $$\mathbf{v} = (x, y)$$:
   
   $$
   |\mathbf{v}| = \sqrt{x^2 + y^2}
   $$
 
-- For a 3D vector \(\mathbf{u} = (x, y, z)\):
+- For a 3D vector $$\mathbf{u} = (x, y, z)$$:
   
   $$
   |\mathbf{u}| = \sqrt{x^2 + y^2 + z^2}
@@ -332,4 +332,46 @@ $$, the product:
 
 $$
 \mathbf{A} \cdot \mathbf{x} = \text{Not defined}
+$$
+
+## 6. Matrix multiplication
+
+### Matrix-Vector Product
+To perform multiplication between a matrix $$ \mathbf{A} $$ and a vector $$ \mathbf{x} $$ (the matrix-vector product), the vector must be viewed as a column matrix. The product is defined when the number of columns in $$ \mathbf{A} $$ equals the number of rows in $$ \mathbf{x} $$.
+
+If $$ \mathbf{A} $$ is an $$ m \times n $$ matrix, the vector $$ \mathbf{x} $$ is an $$ n \times 1 $$ column vector. The resulting vector $$ \mathbf{b} = \mathbf{A} \cdot \mathbf{x} $$ will be an $$ m \times 1 $$ column vector.
+
+#### General Formula
+$$
+\mathbf{A} \cdot \mathbf{x} = \begin{pmatrix}
+a_{11} & \cdots & a_{1n} \\
+\vdots & \ddots & \vdots \\
+a_{m1} & \cdots & a_{mn}
+\end{pmatrix} \cdot \begin{pmatrix}
+x_1 \\
+\vdots \\
+x_n
+\end{pmatrix}
+$$
+
+### Matrix-Matrix Product
+The matrix-vector product is a special case of the matrix-matrix product. The product $$ \mathbf{A} \cdot \mathbf{B} $$ between matrices is defined when the number of columns in $$ \mathbf{A} $$ equals the number of rows in $$ \mathbf{B} $$.
+
+If $$ \mathbf{A} $$ is an $$ m \times n $$ matrix and $$ \mathbf{B} $$ is an $$ n \times p $$ matrix, the product $$ \mathbf{C} = \mathbf{A} \cdot \mathbf{B} $$ is an $$ m \times p $$ matrix.
+
+#### Calculation
+Each column of $$ \mathbf{C} $$ is the matrix-vector product of $$ \mathbf{A} $$ with the respective column of $$ \mathbf{B} $$. The component in the $$ i $$-th row and $$ j $$-th column of $$ \mathbf{C} $$ is the dot product between the $$ i $$-th row of $$ \mathbf{A} $$ and the $$ j $$-th column of $$ \mathbf{B} $$.
+
+### Examples
+
+#### Example 1: Matrix-Vector Product
+Let $$ \mathbf{A} = \begin{pmatrix} 1 & -3 \\ 2 & 3 \end{pmatrix} $$ and $$ \mathbf{x} = \begin{pmatrix} 2 \\ 5 \end{pmatrix} $$:
+$$
+\mathbf{A} \cdot \mathbf{x} = \begin{pmatrix} 1 \cdot 2 + (-3) \cdot 5 \\ 2 \cdot 2 + 3 \cdot 5 \end{pmatrix} = \begin{pmatrix} -13 \\ 19 \end{pmatrix}
+$$
+
+#### Example 2: Matrix-Matrix Product
+Let $$ \mathbf{A} = \begin{pmatrix} 1 & 2 \\ 3 & 4 \end{pmatrix} $$ and $$ \mathbf{B} = \begin{pmatrix} 0 & 1 \\ 1 & 2 \end{pmatrix} $$:
+$$
+\mathbf{A} \cdot \mathbf{B} = \begin{pmatrix} 1 \cdot 0 + 2 \cdot 1 \\ 3 \cdot 0 + 4 \cdot 1 \\ 1 \cdot 1 + 2 \cdot 2 \\ 3 \cdot 1 + 4 \cdot 2 \end{pmatrix} = \begin{pmatrix} 2 \\ 4 \\ 5 \\ 11 \end{pmatrix}
 $$
