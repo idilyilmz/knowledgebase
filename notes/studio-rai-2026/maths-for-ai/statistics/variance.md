@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 9. Variance (conceptual)
 
 In this lesson you will learn:

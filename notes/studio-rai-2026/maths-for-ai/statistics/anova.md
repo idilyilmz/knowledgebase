@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 18. ANOVA
 
 In this lesson you'll learn:

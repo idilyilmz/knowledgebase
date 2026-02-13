@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 5. Quartiles
 
 In this lesson you will learn:

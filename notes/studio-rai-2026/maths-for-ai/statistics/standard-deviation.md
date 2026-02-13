@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 11. Standard Deviation (conceptual)
 In this lesson you will learn:
 - What a standard deviation is

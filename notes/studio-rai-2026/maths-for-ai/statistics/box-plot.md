@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 14. Box Plot
 
 In this lesson you will learn:

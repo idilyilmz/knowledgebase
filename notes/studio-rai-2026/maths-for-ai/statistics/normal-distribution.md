@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 16. Normal Distribution
 
 In this lesson you will learn:

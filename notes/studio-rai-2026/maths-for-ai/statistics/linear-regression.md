@@ -1,7 +1,5 @@
 # Module 1: Statistics
 
-Everything you need to know for statistics !
-
 ## 20. Linear Regression
 
 This lesson will teach you:
