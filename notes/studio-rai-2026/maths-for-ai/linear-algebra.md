@@ -7,7 +7,29 @@
 A **unit vector** is a vector with a length of **1** in a normed vector space. It is typically represented by a lowercase letter with a circumflex, such as **$$ \hat{v} $$**. The term **normalized vector** is synonymous with unit vector.
 
 #### Normalization
-To find the **normalized vector** $$ \hat{u} $$ of a non-zero vector $$ u $$, you divide each component of $$ u $$ by its norm (or length), represented as $$ ||u|| $$
+To find the **normalized vector** 
+
+$$
+\hat{u}
+$$
+
+of a non-zero vector 
+
+$$
+u
+$$
+
+, you divide each component of 
+
+$$
+u
+$$
+
+by its norm (or length), represented as 
+
+$$
+||u||
+$$
 
 $$ 
 \hat{u} = \frac{u}{||u||} = \left(\frac{u_1}{||u||}, \frac{u_2}{||u||}, \ldots, \frac{u_n}{||u||}\right)
@@ -28,15 +50,63 @@ Unit vectors aid in simplifying calculations and maintaining directional consist
 The **dot product**, also known as the **scalar product**, combines two vectors to produce a single scalar value. It measures how much two vectors point in the same direction.
 
 ### Formula
-The dot product of two vectors $$\mathbf{a}$$ and $$\mathbf{b}$$ is calculated as:
+The dot product of two vectors 
+
+$$
+\mathbf{a}
+$$
+
+and 
+$$
+\mathbf{b}
+$$
+
+is calculated as:
 
 $$
 \mathbf{a} \cdot \mathbf{b} = |\mathbf{a}| |\mathbf{b}| \cos(\theta)
 $$
 
-where $$ |\mathbf{a}| $$ and $$ |\mathbf{b}| $$ are the magnitudes (lengths) of vectors $$\mathbf{a}$$ and $$\mathbf{b}$$, and $$\theta$$ is the angle between them.
+where 
 
-If the components of the vectors are known (e.g., for 2D vectors $$\mathbf{a} = (a_1, a_2)$$ and $$\mathbf{b} = (b_1, b_2)$$ the dot product can be expressed as:
+$$
+|\mathbf{a}|
+$$ and 
+
+$$
+|\mathbf{b}|
+$$ 
+
+are the magnitudes (lengths) of vectors 
+
+$$
+\mathbf{a}
+$$
+and 
+
+$$
+\mathbf{b}
+$$
+, and 
+
+$$
+\theta
+$$ 
+is the angle between them.
+
+If the components of the vectors are known (e.g., for 2D vectors 
+
+$$
+\mathbf{a} = (a_1, a_2)
+$$ 
+
+and 
+
+$$
+\mathbf{b} = (b_1, b_2)
+$$ 
+
+the dot product can be expressed as:
 
 $$
 \mathbf{a} \cdot \mathbf{b} = a_1 b_1 + a_2 b_2
@@ -481,7 +551,13 @@ For this worked example you are assumed to be familiar with:
 
 ### Finding the Inverse of a $$ 2 \times 2 $$ Matrix
 
-To find the inverse $$ \mathbf{A}^{-1} $$ of the matrix 
+To find the inverse 
+
+$$
+\mathbf{A}^{-1}
+$$
+
+of the matrix 
 
 $$
 \mathbf{A} = \begin{pmatrix}
@@ -491,16 +567,46 @@ $$
 $$
 
 #### Step 1: Check Invertibility
+
 It’s advisable to check if the matrix is invertible before calculations. Conditions for invertibility include:
 
-- An inverse matrix $$ \mathbf{A}^{-1} $$ exists.
-- $$ \text{det}(\mathbf{A}) \neq 0 $$ (For a $$ 2 \times 2 $$ matrix: $$ \text{det}(a, b, c, d) = ad - bc $$).
-- The matrix's rank is $$ n $$.
-- The columns are linearly independent.
-- The echelon form is the identity matrix.
+An inverse matrix 
+
+$$ 
+\mathbf{A}^{-1} 
+$$ 
+exists.
+
+$$ 
+\text{det}(\mathbf{A}) \neq 0 
+$$
+
+(For a 
+
+$$
+2 \times 2
+$$
+
+matrix: 
+$$
+\text{det}(a, b, c, d) = ad - bc
+$$
+).
+
+The matrix's rank is 
+$$ n $$
+
+The columns are linearly independent.
+
+The echelon form is the identity matrix.
 
 #### Step 2: Apply the Inverse Formula
-For a $$ 2 \times 2 $$ matrix 
+
+For a 
+$$
+2 \times 2 
+$$
+matrix 
 
 $$
 \mathbf{A} = \begin{pmatrix}
@@ -519,7 +625,12 @@ d & -b \\
 $$
 
 #### Step 3: Calculate the Inverse
-For the given matrix $$ \mathbf{A} $$:
+
+For the given matrix 
+
+$$
+\mathbf{A}
+$$:
 
 1. Calculate the determinant:
 
@@ -540,7 +651,18 @@ $$
 $$
 
 #### Step 4: Verify the Solution
-To confirm the accuracy, multiply $$ \mathbf{A}^{-1} $$ by $$ \mathbf{A} $$:
+
+To confirm the accuracy, multiply 
+
+$$
+\mathbf{A}^{-1} 
+$$ 
+
+by 
+
+$$ 
+\mathbf{A} 
+$$
 
 $$
 \begin{pmatrix}
@@ -556,3 +678,113 @@ $$
 $$
 
 This confirms that the solution is correct.
+
+## 9. Eigenvalues and eigenvectors
+
+### Definitions
+- **Eigenvector**: A non-zero vector that does not change direction when a transformation is applied (it may change length). 
+- **Eigenvalue**: The scalar that represents the change in length of the eigenvector, typically denoted by $$ \lambda $$.
+
+The term "eigen" is German for "own" or "typical". For a square matrix $$ \mathbf{A} $$, scalar $$ \lambda $$, and non-zero vector $$ \mathbf{v} $$, they satisfy the equation:
+
+$$
+\mathbf{A}\mathbf{v} = \lambda \mathbf{v}
+$$
+
+Here, $$ \lambda $$ is the eigenvalue, and $$ \mathbf{v} $$ is the eigenvector.
+
+### Example 1: Calculating Eigenvalues
+Given the matrix
+
+$$
+\mathbf{A} = \begin{pmatrix}
+1 & 2 \\
+2 & 1
+\end{pmatrix}
+$$
+
+To find the eigenvalues, solve:
+
+$$
+\text{Det}(\mathbf{A} - \lambda \mathbf{I}) = 0
+$$
+
+where 
+
+$$
+\mathbf{I} = \begin{pmatrix}
+1 & 0 \\
+0 & 1
+\end{pmatrix}
+$$
+
+This leads to:
+
+$$
+\text{Det}\left(\begin{pmatrix}
+1-\lambda & 2 \\
+2 & 1-\lambda
+\end{pmatrix}\right) = 0
+$$
+
+Calculating the determinant:
+
+$$
+(1-\lambda)^2 - (2)(2) = 0
+$$
+
+This simplifies to:
+
+$$
+\lambda^2 - 2\lambda - 3 = 0
+$$
+
+Factoring gives:
+
+$$
+(\lambda - 3)(\lambda + 1) = 0
+$$
+
+Thus, the eigenvalues are:
+
+$$
+\lambda = 3 \quad \text{or} \quad \lambda = -1
+$$
+
+### Example 2: Calculating Eigenvectors
+Using the eigenvalue $$ \lambda = 3 $$:
+
+$$
+\mathbf{A}\mathbf{v} = 3\mathbf{v}
+$$
+
+Substituting:
+
+$$
+\begin{pmatrix}
+1 & 2 \\
+2 & 1
+\end{pmatrix} \begin{pmatrix}
+x \\
+y
+\end{pmatrix} = 3 \begin{pmatrix}
+x \\
+y
+\end{pmatrix}
+$$
+
+Results in the system:
+
+1. $$ x + 2y = 3x $$
+2. $$ 2x + y = 3y $$
+
+Choosing $$ x = 1 $$ leads to $$ y = 1 $$, yielding the eigenvector for $$ \lambda = 3 $$:
+
+$$
+\begin{pmatrix}
+1 \\
+1
+\end{pmatrix}
+$$
+
+You can repeat similar calculations for $$ \lambda = -1 $$.
