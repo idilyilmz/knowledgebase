@@ -1,5 +1,7 @@
 # Summary of the Lesson: Python for AI
 
+week 1 dag 3
+
 ## Introduction
 
 The lesson provides an overview of using **Python** for artificial intelligence (AI) development, highlighting its popularity and utility in data science.
