@@ -1,8 +1,10 @@
-# YOLO
+# Object Detection
 
-## What YOLO Is (In AI)
+## YOLO
 
-### YOLO — "You Only Look Once"
+### What YOLO Is (In AI)
+
+#### YOLO — "You Only Look Once"
 
 **YOLO (You Only Look Once)** is a **real-time object detection model** used in **computer vision**.
 
@@ -18,7 +20,7 @@ Bicycle
 Traffic light
 ```
 
-### How YOLO Works (Simple)
+#### How YOLO Works (Simple)
 
 Traditional detection systems:
 ```
@@ -50,7 +52,7 @@ Confidence: 0.91
 Location: (x, y, width, height)
 ```
 
-### Why YOLO Is Popular
+#### Why YOLO Is Popular
 
 Advantages:
 
@@ -65,3 +67,7 @@ Advantages:
 📷 Used in surveillance
 
 🤖 Used in robotics
+
+## R-CNN / Faster R-CNN 
+
+## SSD 
