@@ -31,6 +31,12 @@ knowledgebase/
     courses/
     subjects/
     projects/
+  ai_ml/
+    computer_vision/
+    fundamentals/
+    generative_ai/
+    nlp/
+    reinforcement_learning/
 ```
 ---
 
