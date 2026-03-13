@@ -418,7 +418,7 @@ This means **any developer can build AI applications quickly**.
 
 ---
 
-# Core Idea of the Chapter
+## Core Idea of the Chapter
 
 The entire chapter can be summarized in one concept:
 
@@ -848,3 +848,694 @@ AI is weaker at tasks involving:
 
 * physical skills
 * complex real-world actions.
+
+Here is the **same style structured summary** for the final section so it’s easy to review with the others.
+
+---
+
+# 3. Planning AI Applications
+
+## 3.1 Why planning matters
+
+Because foundation models are powerful, it’s easy to build **cool demos quickly**.
+
+However:
+
+* Building a **demo** is easy
+* Building a **profitable product** is hard
+
+Before building an AI application, companies should evaluate:
+
+* why they need it
+* whether they should build or buy it
+* how success will be measured
+* how the system will evolve over time
+
+---
+
+# 3.2 Use Case Evaluation
+
+The first step is understanding **why the AI application should exist**.
+
+Companies typically adopt AI for three reasons.
+
+### 1. Existential risk (highest urgency)
+
+If competitors use AI and you don’t, your business may become obsolete.
+
+Examples of high-risk industries:
+
+* financial analysis
+* insurance
+* document processing
+* advertising
+* web design
+
+In these industries, AI adoption is necessary for **business survival**.
+
+---
+
+### 2. Profit and productivity opportunity
+
+Most companies adopt AI to improve efficiency.
+
+AI can help with:
+
+* marketing copy
+* customer support
+* sales lead generation
+* internal communication
+* market research
+* user personalization
+
+Benefits include:
+
+* lower costs
+* higher productivity
+* better user experience
+
+---
+
+### 3. Exploration (don’t fall behind)
+
+Some companies experiment with AI even if they’re unsure how it fits.
+
+Reason:
+Companies that ignore new technologies often fail.
+
+Examples of companies that missed technology shifts:
+
+* Kodak
+* Blockbuster
+* BlackBerry
+
+---
+
+### Build vs Buy Decision
+
+After identifying a use case, decide whether to:
+
+**Build AI internally**
+
+* more control
+* better competitive advantage
+
+**Buy existing solutions**
+
+* faster
+* cheaper
+* less engineering effort
+
+---
+
+# 3.3 Role of AI in the Product
+
+How AI fits into a product affects its **design and reliability requirements**.
+
+Three key design dimensions:
+
+---
+
+## Critical vs Complementary
+
+**Critical AI**
+The product cannot function without AI.
+
+Example:
+
+* Face ID
+
+These require:
+
+* high accuracy
+* strong reliability
+
+---
+
+**Complementary AI**
+AI improves the product but isn’t essential.
+
+Example:
+
+* Gmail Smart Compose
+
+Users tolerate more mistakes when AI is **nonessential**.
+
+---
+
+## Reactive vs Proactive
+
+**Reactive AI**
+
+Responds only when users ask.
+
+Example:
+
+* chatbots
+
+Characteristics:
+
+* requires fast responses
+* user-initiated
+
+---
+
+**Proactive AI**
+
+Suggests things without being asked.
+
+Example:
+
+* traffic alerts in maps
+
+Characteristics:
+
+* can be precomputed
+* must be higher quality (users didn’t ask for it)
+
+---
+
+## Dynamic vs Static
+
+**Dynamic systems**
+
+Continuously update based on user behavior.
+
+Example:
+
+* personalized AI assistants
+* recommendation systems
+
+---
+
+**Static systems**
+
+Updated only when the model is updated.
+
+Example:
+
+* object detection in Google Photos
+
+---
+
+# 3.4 Role of Humans in AI Systems
+
+Many AI systems include **human-in-the-loop** workflows.
+
+Possible setups:
+
+### AI-assisted humans
+
+AI suggests responses, but humans decide.
+
+Example:
+Customer support agents using AI suggestions.
+
+---
+
+### AI handles simple tasks
+
+AI answers easy questions, humans handle complex ones.
+
+---
+
+### Fully automated AI
+
+AI handles everything without human intervention.
+
+---
+
+### Crawl–Walk–Run Automation Strategy
+
+A common adoption model:
+
+**Crawl**
+Humans must review AI outputs.
+
+**Walk**
+AI interacts internally with employees.
+
+**Run**
+AI interacts directly with customers.
+
+Automation increases as the system improves.
+
+---
+
+# 3.5 AI Product Defensibility
+
+AI applications often have **low entry barriers**.
+
+If you can build it easily, competitors can too.
+
+Companies must create **defensible advantages (moats)**.
+
+Three main AI advantages:
+
+### 1. Technology
+
+Unique algorithms or infrastructure.
+
+Hard to maintain because many companies use the same models.
+
+---
+
+### 2. Data
+
+Exclusive datasets can improve AI performance.
+
+Startups can gain a data advantage if they:
+
+* launch early
+* collect user interactions
+* improve models with feedback
+
+---
+
+### 3. Distribution
+
+Ability to reach users.
+
+Big companies have an advantage here.
+
+Examples:
+
+* Google
+* Microsoft
+* Apple
+
+---
+
+Even small startups can succeed if they:
+
+* move fast
+* focus on a specific niche
+
+Examples of small startups beating big companies:
+
+* Calendly
+* Mailchimp
+* Photoroom
+
+---
+
+# 3.6 Setting Expectations
+
+Once the decision to build is made, define **success metrics**.
+
+Example: customer support chatbot metrics
+
+Business metrics:
+
+* % of tickets automated
+* faster response times
+* reduced support cost
+* higher throughput
+
+---
+
+### Important technical metrics
+
+#### Quality metrics
+
+Measure accuracy and usefulness of responses.
+
+---
+
+#### Latency metrics
+
+Important metrics include:
+
+* **TTFT** – time to first token
+* **TPOT** – time per output token
+* **Total latency**
+
+Acceptable latency depends on the use case.
+
+Example:
+If humans respond in 1 hour, even a 30-second AI response is good.
+
+---
+
+#### Cost metrics
+
+Cost per inference request.
+
+---
+
+#### Other metrics
+
+* fairness
+* interpretability
+* reliability
+
+---
+
+# 3.7 Milestone Planning
+
+After defining metrics, plan how to achieve them.
+
+Steps:
+
+1. Evaluate existing models
+2. Estimate how much improvement is needed
+3. Determine required effort
+
+Example:
+
+Goal:
+Automate **60% of support tickets**
+
+If base model already handles **30%**, development becomes easier.
+
+---
+
+### The “Last Mile Problem”
+
+AI demos often look impressive quickly.
+
+But improvement slows dramatically later.
+
+Example findings:
+
+* first **60–80% performance** is relatively easy
+* improving from **80% → 95%** can take months
+
+This happens due to:
+
+* edge cases
+* hallucinations
+* reliability issues
+
+---
+
+# 3.8 Maintenance
+
+AI systems require continuous maintenance.
+
+Reasons:
+
+### Rapid technology changes
+
+Models constantly improve:
+
+* better accuracy
+* longer context windows
+* cheaper inference
+
+But switching models can break systems.
+
+---
+
+### Changing regulations
+
+AI laws can affect:
+
+* data usage
+* compute availability
+* intellectual property
+
+Example:
+GDPR compliance cost companies billions.
+
+---
+
+### Infrastructure risks
+
+Dependencies can change suddenly.
+
+Examples:
+
+* GPU supply restrictions
+* model providers shutting down
+* API changes
+
+---
+
+# 3.9 The AI Engineering Stack
+
+AI applications consist of **three layers**.
+
+---
+
+## 1. Application Development (top layer)
+
+Focuses on building the product.
+
+Key tasks:
+
+* prompt engineering
+* evaluation
+* user interface design
+
+This layer has grown **the fastest** since ChatGPT.
+
+---
+
+## 2. Model Development
+
+Tools for building and adapting models.
+
+Responsibilities:
+
+* training
+* finetuning
+* dataset engineering
+* inference optimization
+
+Examples of tools:
+
+* PyTorch
+* TensorFlow
+* Hugging Face
+
+---
+
+## 3. Infrastructure (bottom layer)
+
+Provides system resources.
+
+Responsibilities:
+
+* model serving
+* compute management
+* data storage
+* monitoring
+
+---
+
+# 3.10 AI Engineering vs Traditional ML Engineering
+
+Building with foundation models changes the workflow.
+
+### Traditional ML Engineering
+
+Steps:
+
+1. collect data
+2. train model
+3. build product
+
+Model development is the main challenge.
+
+---
+
+### AI Engineering
+
+Steps:
+
+1. build product first
+2. use existing models
+3. adapt models if necessary
+
+The focus shifts from **training models** to **adapting models**.
+
+---
+
+## Key differences
+
+### 1. Model training
+
+Traditional ML:
+Train models from scratch.
+
+AI engineering:
+Use pretrained models.
+
+---
+
+### 2. Compute requirements
+
+Foundation models:
+
+* larger
+* slower
+* more expensive
+
+This makes **inference optimization critical**.
+
+---
+
+### 3. Evaluation difficulty
+
+Traditional ML outputs:
+
+* fixed answers
+
+Example:
+spam / not spam
+
+LLMs outputs:
+
+* open-ended
+
+This makes evaluation **much harder**.
+
+---
+
+# 3.11 Model Adaptation Methods
+
+There are two main ways to adapt foundation models.
+
+---
+
+### Prompt-based techniques
+
+Do not change model weights.
+
+Examples:
+
+* prompt engineering
+* context construction
+
+Advantages:
+
+* easy
+* requires little data
+
+Limitations:
+
+* less powerful for complex tasks
+
+---
+
+### Finetuning
+
+Updates model weights.
+
+Advantages:
+
+* higher performance
+* task specialization
+
+Requirements:
+
+* more data
+* more compute
+
+---
+
+# 3.12 Application Development Components
+
+Three main parts of AI application development.
+
+---
+
+## Evaluation
+
+Evaluation is critical for:
+
+* model selection
+* benchmarking
+* deployment readiness
+* monitoring in production
+
+Because LLMs generate open-ended responses, evaluation is harder.
+
+---
+
+## Prompt Engineering
+
+Design prompts that guide model behavior.
+
+Includes:
+
+* instructions
+* examples
+* context
+* memory management
+
+Good prompts can dramatically improve performance.
+
+---
+
+## AI Interfaces
+
+Interfaces through which users interact with AI.
+
+Examples:
+
+* web apps
+* mobile apps
+* browser extensions
+* chatbots
+* voice assistants
+
+Popular integrations include:
+
+* Slack bots
+* Discord bots
+* VSCode plugins
+* browser assistants
+
+---
+
+# 3.13 AI Engineering vs Full-Stack Engineering
+
+AI engineering is increasingly similar to **full-stack development**.
+
+Reasons:
+
+* strong focus on product interfaces
+* rapid prototyping
+* fast iteration cycles
+
+Many AI engineers now come from:
+
+* web development
+* full-stack engineering
+
+---
+
+### New development workflow
+
+Traditional ML workflow:
+
+```
+data → model → product
+```
+
+AI engineering workflow:
+
+```
+product → experiment → improve model
+```
+
+Developers can build **products first**, then optimize models later.
+
+---
+
+# Core Idea of This Section
+
+Building AI applications requires more than using powerful models.
+
+Successful AI products require:
+
+* strong use case evaluation
+* careful planning
+* human-AI collaboration
+* continuous evaluation and maintenance
+
+The biggest shift from traditional ML:
+
+**AI engineering focuses more on adapting models and building products than training models from scratch.**
