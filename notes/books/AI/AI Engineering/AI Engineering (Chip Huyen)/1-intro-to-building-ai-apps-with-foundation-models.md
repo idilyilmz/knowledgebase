@@ -431,3 +431,420 @@ Key enablers:
 * multimodal foundation models
 * API access to powerful models
 
+Here’s a **clean, structured summary in the same format** as before so you can quickly review the chapter.
+
+---
+
+# 2. Foundation Model Use Cases
+
+## 2.1 Why foundation models have so many applications
+
+Foundation models are **general-purpose**, meaning they can solve many different tasks.
+
+Reasons the use cases are so broad:
+
+* They understand **natural language**
+* They generate **open-ended outputs**
+* They can work across **multiple modalities (text, image, video, etc.)**
+
+Because of this, the number of possible AI applications is **almost unlimited**.
+
+Organizations categorize AI use cases differently, for example:
+
+**AWS**
+
+* Customer experience
+* Employee productivity
+* Process optimization
+
+**O’Reilly survey**
+
+* Programming
+* Data analysis
+* Customer support
+* Marketing copy
+* Research
+* Web design
+* Art
+
+Another way to categorize them is by **business value**:
+
+* Cost reduction
+* Efficiency
+* Growth
+* Innovation
+
+---
+
+## 2.2 Jobs most exposed to AI
+
+Researchers studied how much AI could reduce the time needed for certain tasks.
+
+A job is **“exposed to AI”** if AI can reduce task time by **50% or more**.
+
+Highly exposed occupations include:
+
+* Translators
+* Writers
+* Web designers
+* Tax preparers
+* Quantitative analysts
+* Mathematicians
+
+These jobs involve **language, analysis, or digital content**, which AI handles well.
+
+Low exposure jobs include:
+
+* Cooks
+* Stonemasons
+* Athletes
+
+These rely heavily on **physical skills**.
+
+---
+
+# 2.3 Major Categories of AI Applications
+
+The chapter groups common AI applications into **eight major categories**.
+
+---
+
+# 2.3.1 Coding
+
+Coding is **the most popular AI use case**.
+
+Examples:
+
+* Code completion
+* Code generation
+* Code translation
+* Debugging
+* Documentation
+
+Example tools:
+
+* GitHub Copilot
+* gpt-engineer
+* screenshot-to-code
+
+AI can help developers with:
+
+* generating code
+* refactoring
+* documentation
+* testing
+* commit messages
+
+Productivity impact (McKinsey research):
+
+| Task                  | Productivity Gain |
+| --------------------- | ----------------- |
+| Documentation         | ~2x               |
+| Code generation       | 25–50%            |
+| Complex system design | small improvement |
+
+AI currently performs **better at simpler tasks**, especially frontend work.
+
+Key takeaway:
+AI likely **augments developers rather than fully replacing them**.
+
+---
+
+# 2.3.2 Image and Video Production
+
+AI is very good at **creative generation**.
+
+Popular tools:
+
+* Midjourney
+* Adobe Firefly
+* Runway
+* Pika Labs
+* Sora
+
+Common uses:
+
+**Consumer**
+
+* profile pictures
+* photo editing
+* video creation
+* art generation
+
+**Enterprise**
+
+* marketing visuals
+* ad generation
+* concept art
+* campaign variations
+
+Example:
+AI can automatically generate seasonal ad variations:
+
+* winter (snow)
+* fall (orange leaves)
+
+---
+
+# 2.3.3 Writing
+
+Writing is a natural use case because language models are trained for **text completion**.
+
+Examples:
+
+**Consumer**
+
+* emails
+* blog posts
+* essays
+* books
+* social media posts
+
+**Enterprise**
+
+* marketing copy
+* product descriptions
+* internal reports
+* outreach emails
+* SEO content
+
+Research findings:
+
+* AI reduced writing time by **40%**
+* Output quality improved by **18%**
+
+AI is especially helpful for people who struggle with writing.
+
+---
+
+### Downsides
+
+AI writing can also create problems:
+
+* spam content
+* SEO content farms
+* AI-generated fake books
+* misinformation
+
+Example:
+Some websites produce **1000+ AI articles per day**.
+
+---
+
+# 2.3.4 Education
+
+AI can act as a **personalized tutor**.
+
+Use cases:
+
+* textbook summarization
+* practice questions
+* essay feedback
+* tutoring
+* language learning
+
+Advantages:
+
+* personalized lessons
+* adaptive explanations
+* interactive learning
+
+Example uses:
+
+* AI debate partner
+* AI roleplay for language practice
+* personalized quizzes
+
+Some schools initially **banned ChatGPT**, but later reversed the bans.
+
+---
+
+# 2.3.5 Conversational Bots
+
+Conversational AI is one of the **most visible AI applications**.
+
+Examples:
+
+**Consumer**
+
+* chatbots
+* AI companions
+* therapy bots
+* virtual characters
+
+**Enterprise**
+
+* customer support
+* product assistants
+* onboarding assistants
+
+Benefits:
+
+* faster response times
+* reduced support costs
+* improved customer experience
+
+---
+
+### Advanced conversational agents
+
+New developments include:
+
+* **voice assistants**
+
+  * Siri
+  * Alexa
+  * Google Assistant
+
+* **3D AI characters**
+
+  * game NPCs
+  * retail assistants
+  * virtual brand representatives
+
+AI can make **video game NPCs much more realistic and dynamic**.
+
+---
+
+# 2.3.6 Information Aggregation
+
+People struggle with **information overload**.
+
+AI helps by:
+
+* summarizing documents
+* extracting insights
+* comparing research
+* generating reports
+
+Example applications:
+
+* summarizing emails and Slack messages
+* research summaries
+* talk-to-your-docs systems
+
+Example enterprise use:
+AI summarizing meeting notes into:
+
+* key facts
+* open questions
+* action items
+
+These can automatically update **project management tools**.
+
+---
+
+# 2.3.7 Data Organization
+
+A huge amount of data is **unstructured**:
+
+* images
+* videos
+* PDFs
+* contracts
+* logs
+
+AI helps by:
+
+* extracting structured information
+* labeling content
+* enabling search
+
+Examples:
+
+Consumer:
+
+* photo search in Google Photos
+* image tagging
+
+Enterprise:
+
+* extracting info from receipts
+* extracting data from contracts
+* financial document processing
+
+This industry is called **Intelligent Document Processing (IDP)**.
+
+Expected growth:
+
+* ~$12.8B market by 2030
+
+---
+
+# 2.3.8 Workflow Automation
+
+AI can automate repetitive tasks.
+
+Examples:
+
+**Consumer**
+
+* trip planning
+* booking restaurants
+* refund requests
+* form filling
+
+**Enterprise**
+
+* lead generation
+* invoice processing
+* data entry
+* reimbursements
+* customer request handling
+
+---
+
+### AI Agents
+
+Advanced automation requires **AI agents**.
+
+Agents can:
+
+* plan tasks
+* call external tools
+* execute multi-step workflows
+
+Example workflow:
+
+```
+User request → plan steps → use tools → complete task
+```
+
+Example tasks:
+
+* booking travel
+* scheduling meetings
+* searching the web
+* updating databases
+
+Agents could significantly **increase productivity**.
+
+---
+
+# Core Idea of This Section
+
+Foundation models enable a **wide range of applications across industries**.
+
+Most common categories:
+
+1. Coding
+2. Image/video generation
+3. Writing
+4. Education
+5. Conversational bots
+6. Information aggregation
+7. Data organization
+8. Workflow automation
+
+Key insight:
+
+AI is best at tasks involving:
+
+* language
+* digital content
+* information processing
+
+AI is weaker at tasks involving:
+
+* physical skills
+* complex real-world actions.
