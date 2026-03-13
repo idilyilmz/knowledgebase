@@ -1539,3 +1539,556 @@ Successful AI products require:
 The biggest shift from traditional ML:
 
 **AI engineering focuses more on adapting models and building products than training models from scratch.**
+
+Here is the **1-page Chapter 1 Cheat Sheet (≈5-minute review)** combining the sections you sent.
+
+---
+
+# Chapter 1 – Foundation Models (5-Minute Cheat Sheet)
+
+## 1. What Foundation Models Are
+
+**Foundation models** are large AI models trained on massive datasets that can be **adapted to many tasks**.
+
+Examples of capabilities:
+
+* text generation
+* coding
+* image generation
+* summarization
+* question answering
+* reasoning
+
+Instead of building a new model for every task, developers now **build applications on top of foundation models**.
+
+---
+
+# 2. Why Foundation Models Matter
+
+Foundation models changed AI development because they enable:
+
+### 1. Generalization
+
+One model can perform **many different tasks**.
+
+Example:
+
+* translate languages
+* write code
+* summarize documents
+* answer questions
+
+---
+
+### 2. Transfer learning
+
+A pretrained model can be **adapted to new tasks with little data**.
+
+Methods include:
+
+* prompt engineering
+* retrieval
+* finetuning
+
+---
+
+### 3. Rapid application development
+
+Developers can now:
+
+```
+idea → prototype → product
+```
+
+much faster than traditional ML.
+
+---
+
+# 3. Common AI Use Case Categories
+
+AI applications generally fall into **8 major categories**.
+
+### 1. Coding
+
+Most popular use case.
+
+Examples:
+
+* code generation
+* code completion
+* code translation
+* documentation generation
+* test generation
+
+AI improves developer productivity **25–100% depending on task complexity**.
+
+---
+
+### 2. Image & Video Production
+
+AI is strong at **creative generation**.
+
+Examples:
+
+* AI art generation
+* video generation
+* photo editing
+* design assets
+* marketing visuals
+
+Common in:
+
+* advertising
+* social media
+* design tools
+
+---
+
+### 3. Writing
+
+LLMs are naturally good at **text generation**.
+
+Use cases:
+
+* email writing
+* blog posts
+* SEO content
+* product descriptions
+* marketing copy
+
+Studies show AI can:
+
+* reduce writing time by **~40%**
+* improve quality by **~18%**
+
+---
+
+### 4. Education
+
+AI can act as a **personal tutor**.
+
+Applications include:
+
+* tutoring
+* quiz generation
+* essay grading
+* lesson personalization
+* language learning
+
+AI enables **personalized education at scale**.
+
+---
+
+### 5. Conversational Bots
+
+Chat-based interfaces.
+
+Examples:
+
+* general chatbots
+* customer support bots
+* AI companions
+* product copilots
+
+Companies use them to:
+
+* reduce support costs
+* improve response speed
+
+---
+
+### 6. Information Aggregation
+
+AI can **digest large volumes of information**.
+
+Examples:
+
+* summarizing documents
+* research assistance
+* meeting notes summaries
+* talk-to-your-docs systems
+
+Very useful for:
+
+* research
+* corporate knowledge retrieval
+
+---
+
+### 7. Data Organization
+
+AI helps structure **unstructured data**.
+
+Examples:
+
+* image search
+* document parsing
+* contract analysis
+* receipt extraction
+* knowledge management
+
+Important because most enterprise data is **unstructured**.
+
+---
+
+### 8. Workflow Automation
+
+AI automates repetitive tasks.
+
+Examples:
+
+* travel planning
+* data entry
+* lead generation
+* invoicing
+* refund processing
+
+Advanced systems use **AI agents** that interact with tools.
+
+---
+
+# 4. How Companies Adopt AI
+
+Companies adopt AI for three main reasons.
+
+### 1. Existential pressure
+
+If competitors adopt AI, others must too.
+
+Example industries:
+
+* finance
+* advertising
+* document processing
+
+---
+
+### 2. Productivity gains
+
+AI improves efficiency by:
+
+* reducing labor
+* speeding workflows
+* improving customer service
+
+---
+
+### 3. Exploration
+
+Companies experiment to avoid **missing technological shifts**.
+
+History shows companies that ignore new technology often fail.
+
+Examples:
+
+* Kodak
+* Blockbuster
+* BlackBerry
+
+---
+
+# 5. AI Product Design Dimensions
+
+AI systems can be classified by **three design axes**.
+
+---
+
+## Critical vs Complementary
+
+**Critical AI**
+
+Product depends entirely on AI.
+
+Example:
+
+* Face ID
+
+Requires very high reliability.
+
+---
+
+**Complementary AI**
+
+AI assists but isn't required.
+
+Example:
+
+* Gmail Smart Compose
+
+Users tolerate errors.
+
+---
+
+## Reactive vs Proactive
+
+**Reactive**
+
+Responds when asked.
+
+Example:
+
+* chatbots
+
+---
+
+**Proactive**
+
+Suggests things automatically.
+
+Example:
+
+* Google Maps traffic alerts
+
+Requires higher accuracy.
+
+---
+
+## Dynamic vs Static
+
+**Dynamic**
+
+Updates continuously using user data.
+
+Example:
+
+* recommendation systems
+
+---
+
+**Static**
+
+Only updates when model is retrained.
+
+Example:
+
+* image classification systems
+
+---
+
+# 6. Human–AI Collaboration
+
+Most systems combine **AI + humans**.
+
+Three models:
+
+### AI-assisted humans
+
+AI suggests answers, humans approve.
+
+Example:
+
+customer support agents.
+
+---
+
+### AI handles simple tasks
+
+Humans handle complex edge cases.
+
+---
+
+### Fully automated AI
+
+AI handles everything.
+
+Usually adopted gradually using:
+
+**Crawl → Walk → Run**
+
+1. humans verify AI
+2. AI assists internally
+3. AI interacts with customers
+
+---
+
+# 7. AI Product Moats (Defensibility)
+
+AI products are easy to copy.
+
+Three main competitive advantages:
+
+### Technology
+
+Unique algorithms or infrastructure.
+
+Hard to sustain since models are widely available.
+
+---
+
+### Data
+
+Exclusive datasets improve models.
+
+Startups gain advantage by:
+
+* launching early
+* collecting user interactions
+
+---
+
+### Distribution
+
+Ability to reach users.
+
+Large companies dominate here.
+
+---
+
+# 8. Important AI Product Metrics
+
+Success metrics include:
+
+### Business metrics
+
+* cost reduction
+* productivity improvements
+* task automation rate
+* revenue impact
+
+---
+
+### Technical metrics
+
+**Quality**
+
+Accuracy and usefulness.
+
+---
+
+**Latency**
+
+* TTFT – time to first token
+* TPOT – time per output token
+* total response time
+
+---
+
+**Cost**
+
+Inference cost per request.
+
+---
+
+# 9. The “Last Mile Problem”
+
+AI progress slows dramatically at high performance.
+
+Typical pattern:
+
+* 0 → 70% accuracy: easy
+* 70 → 90%: harder
+* 90 → 95%: very hard
+
+Reasons:
+
+* edge cases
+* hallucinations
+* reliability issues
+
+---
+
+# 10. The AI Engineering Stack
+
+AI systems have **three layers**.
+
+### 1. Application Layer
+
+Product development.
+
+Includes:
+
+* prompt engineering
+* UI design
+* evaluation
+
+---
+
+### 2. Model Layer
+
+Model training and adaptation.
+
+Includes:
+
+* finetuning
+* dataset creation
+* inference optimization
+
+---
+
+### 3. Infrastructure Layer
+
+System infrastructure.
+
+Includes:
+
+* GPUs
+* model serving
+* monitoring
+* storage
+
+---
+
+# 11. AI Engineering vs Traditional ML
+
+Traditional ML:
+
+```
+data → model → product
+```
+
+AI engineering:
+
+```
+product → experiment → improve model
+```
+
+Developers build the **product first**, then optimize the model.
+
+---
+
+# 12. Model Adaptation Methods
+
+Two main approaches.
+
+### Prompt Engineering
+
+Modify inputs without changing model weights.
+
+Pros:
+
+* easy
+* fast
+* cheap
+
+---
+
+### Finetuning
+
+Update model weights using new data.
+
+Pros:
+
+* higher performance
+* specialized models
+
+Cons:
+
+* more data
+* more compute
+
+---
+
+# Key Idea of Chapter 1
+
+Foundation models shift AI development from **training models** to **building products on top of powerful pretrained models**.
+
+The most successful AI systems combine:
+
+* strong product design
+* good prompts
+* human-AI collaboration
+* continuous evaluation.
+
+---
+
+✅ If you want, I can also give you a **super-compressed “30-second exam cheat sheet” version** (about **15 lines**) that’s perfect for **quick revision before class or an exam.**
